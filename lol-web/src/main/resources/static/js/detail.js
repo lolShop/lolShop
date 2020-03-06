@@ -56,9 +56,7 @@ $(function(){
 		method:"get",
 		data:{"productId":"1"},
 		success:function (result) {
+			alert(result.data.productName)
 		}
-	})
-	$.ajax({
-
 	})
 })
