@@ -1,0 +1,49 @@
+spring:
+  #数据源信息配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lol?serverTimezone=GMT&useUnicode=ture&characterEncoding=utf8
+    username: Crazy
+    password: 980425Lch.
+    #配置druid连接池属性
+    druid:
+      #最大连接池数量
+      max-active: 1000
+      #初始化时联机物理连接个数
+      intial-size: 10
+      #获取连接时的最大等待时间
+      max-wait: 1000
+      #最小连接池数量
+      min—idle: 10
+      #如果连接空闲时间大于等于minEvictableIdleTimeMills则关闭物理连接
+      time-between-eviction-runs-millis: 60000
+      #连接保持空闲而不被驱逐的最小时间
+      min-evictable-idle-time-millis: 300000
+      #检测连接的有效性
+      validation-query: select 1
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: false
+      # 监控
+#      stat-view-servlet:
+#        url-pattern: /druid/*
+#        reset-enable: false
+#        login-username: admin
+#        login-password: admin
+#        allow: 127.0.0.1
+#      web-stat-filter:
+#        url-pattern: /*
+#        exclusions: /druid/*,*.js,*.css,*.html,*.png,*.jpg
+# mybatis配置
+mybatis:
+  type-aliases-package: edu.nf.lol..entity
+  mapper-locations: classpath:/mapper/**/*.xml
+# 分页插件配置
+pagehelper:
+  # 数据库方言
+  helper-dialect: mysql
+  # 分页合理化参数，默认值为false。当该参数设置为 true 时，pageNum<=0 时会查询第一页
+  reasonable: true
+  # 分页参数注解支持
+  support-methods-arguments: true

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人信息</title>
+		<link rel="stylesheet" type="text/css" href="css/allcss.css" />
+		<link rel="stylesheet" href="css/personal.css" type="text/css" />
+		<script src="js/jquery-min.js"></script>
+	</head>
+	<body style="margin: 0; background-color:#f5f5f5;">
+		<div style="width: 100%; height: 156px; background-color: black;"></div>
+		
+		<div class="center mid">
+		    <!-- center-none S -->
+		    <div class="center-main clearfix">
+		        <!-- 左边的菜单栏 -->
+				<div class="f1 center-leftbar">
+					<p class="cleftbar-tit"><b>个人中心</b></p>
+					<ul class="cleftbar-ul">
+						<li class="cleftbar-li myorder">
+							<a href="myorder.html" class="cleftbar-link" title="我的订单">我的订单</a>
+						</li>
+						<li class="cleftbar-li coupon">
+							<a href="#" class="cleftbar-link" title="优惠卡券">优惠卡券</a>
+						</li>
+						<li class="cleftbar-li address">
+							<a href="address.html" class="cleftbar-link" title="收货地址">收货地址</a>
+						</li>
+						<li class="cleftbar-li collect">
+							<a href="collect.html" class="cleftbar-link" title="我的收藏">我的收藏</a>
+						</li>
+						<li class="cleftbar-li personal">
+							<a href="personal.html" class="cleftbar-link" title="个人信息" style="color: #F3BF19;">个人信息</a>
+						</li>
+						<li class="cleftbar-li receive">
+							<a href="#" class="cleftbar-link" title="领取中心">领取中心</a>
+						</li>
+						<li class="cleftbar-li sub">
+							<a href="#" class="cleftbar-link" title="订阅中心">订阅中心</a>
+						</li>
+						<li class="cleftbar-li notice">
+							<a href="#" class="cleftbar-link" title="商城公告">商城公告</a>
+						</li>
+					</ul>
+					<!-- 实现经过标签后改变颜色 -->
+					<script>
+						$(function(){
+							$(".cleftbar-ul li").on("mouseover", function(){
+								$($(this).children()[0]).css("color", "#f3bf19");
+							})
+							$(".cleftbar-ul li").on("mouseleave", function(){
+								$($(this).children()[0]).css("color", "#666");
+								if($($(this).children()[0]).attr("title") == "个人信息"){
+									$($(this).children()[0]).css("color", "#f3bf19");
+								}
+							})
+						})
+					</script>
+				</div>
+				<!-- 右边的主体 -->
+				<div class="f1 conter-cont">
+					<h2 class="ct-tit clearfix">
+						<span class="tit-fb">个人信息</span>
+					</h2>
+					<div class="ct-userinfo">
+						<form>
+							<!-- 账号 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">账号</label>
+								<div class="f1 uitem-info">
+									2732298453
+									<a href="#" class="btn-uitem-act" title="QQ/微信账号绑定">QQ/微信账号绑定</a>
+								</div>
+							</div>
+							<!-- 姓名 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">姓名</label>
+								<div class="f1 uitem-ipt">
+									<input class="uitem-input" value="飞猪伊姿" type="text" placeholder name="sName" verifyerrmsg="姓名为必填项，且最多20个字符" />
+								</div>
+							</div>
+							<!-- 性别 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">性别</label>
+								<div class="f1 uitem-radio">
+									<div class="f1 uitem-radiobox">
+										<i class="ico-center ico-checked" val="1"></i>
+										<label>男</label>
+									</div>
+									<div class="f1 uitem-radiobox">
+										<i class="ico-center" val="2"></i>
+										<label>女</label>
+									</div>
+									<script>
+										$(function(){
+											//点击切换性别
+											$(".uitem-radio .ico-center").on("click", function(){
+												$(".uitem-radio .ico-center").attr("class", "ico-center");
+												$(this).attr("class", "ico-center ico-checked");
+											});
+										})
+									</script>
+								</div>
+							</div>
+							<!-- 生日 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">生日</label>
+								<div class="f1 uitem-sel uitem-year">
+									<span class="uitem-seled" id="year">2000</span>
+									<i class="ico-center uitem-botarr"></i>
+									<div class="uitem-downlist" style="display: none;">
+										<ul style="height: 200px; overflow-y: scroll; overflow-x: hidden;">
+											<li>2020</li>
+											<li>2019</li>
+											<li>2018</li>
+											<li>2017</li>
+											<li>2016</li>
+										</ul>
+									</div>
+								</div>
+								<label class="f1 uitem-ylabel">年</label>
+								<div class="f1 uitem-sel uitem-year">
+									<span class="uitem-seled" id="month">9</span>
+									<i class="ico-center uitem-botarr"></i>
+									<div class="uitem-downlist" style="display: none;">
+										<ul style="height: 200px; overflow-y: scroll; overflow-x: hidden;">
+											<li>12</li>
+											<li>11</li>
+											<li>10</li>
+											<li>9</li>
+											<li>8</li>
+											<li>7</li>
+											<li>6</li>
+											<li>5</li>
+											<li>4</li>
+											<li>3</li>
+											<li>2</li>
+											<li>1</li>
+										</ul>
+									</div>
+								</div>
+								<label class="f1 uitem-ylabel">月</label>
+								<div class="f1 uitem-sel uitem-year">
+									<span class="uitem-seled" id="day">5</span>
+									<i class="ico-center uitem-botarr"></i>
+									<div class="uitem-downlist" style="display: none;">
+										<ul style="height: 200px; overflow-y: scroll; overflow-x: hidden;">
+											<li>1</li>
+											<li>2</li>
+											<li>3</li>
+											<li>4</li>
+											<li>5</li>
+										</ul>
+									</div>
+								</div>
+								<label class="f1 uitem-ylabel">日</label>
+							</div>
+							<script>
+								$('.uitem-year').on('click', function(){
+									var getAttr = $($(this).children()[2]).css('display');
+									$('.uitem-year').each(function(index, obj){
+										$($(obj).children()[2]).css('display', 'none');
+										$($(obj).children()[1]).removeClass('uitem-toparr');
+									});
+									if(getAttr == 'none'){
+										$($(this).children()[2]).css('display', 'block');
+										$($(this).children()[1]).addClass('uitem-toparr');
+									}else if(getAttr == 'block'){
+										$($(this).children()[2]).css('display', 'none');
+										$($(this).children()[1]).removeClass('uitem-toparr');
+									}
+								});
+								$('.uitem-year ul li').on('click', function(){
+									$($(this).parents().parents().parents().children()[0]).html($($(this)).text());
+								})
+							</script>
+							<!-- 手机 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">手机</label>
+								<div class="fl uitem-info phone">
+									<a href="#" class="btn-uitem-act" title="绑定手机号码">绑定手机号码</a>
+								</div>
+							</div>
+							<!-- 邮箱 -->
+							<div class="ct-useritem">
+								<label class="f1 uitem-label">邮箱</label>
+								<div class="f1 uitem-ipt">
+									<input class="uitem-input" value type="text" placeholder name="sMail" />
+								</div>
+							</div>
+							<!-- 保存 -->
+							<div class="uitem-actbox">
+								<a href="#" class="btn-uitem-save" title="保存">保存</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</body>
+</html>

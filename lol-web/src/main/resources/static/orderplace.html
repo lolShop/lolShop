@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>填写订单页</title>
+		<link rel="stylesheet" href="css/index.css" >
+		<link rel="stylesheet" href="css/index.css" >
+		<link rel="stylesheet" href="css/orderplace.css" />
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="top-bar">
+		    <!-- top-bar占位 -->
+		    <div class="top-blank"></div>
+		    <div class="top-action">
+		        <!-- top-info S -->
+		        <div class="top-info">
+		            <div class="mid clearfix">
+		                <a href="" target="_blank"><div class="fl ico-comm i-jcp">爱联盟</div></a>
+		                <div class="fl ico-comm i-solgan">因为热爱，所以联盟</div>
+		                <a href="buy.html" class="fr cartbox clearfix" target="_blank">
+		                    <i class="fl ico-comm i-cart"></i>
+		                    <span>购物车</span>
+		                    <div class="fr cart-num">0</div>
+		                </a>
+		                <div class="fr loginbar">
+		                    <!-- 登录前 S-->
+		                    <div class="unlogin">
+		                        <i class="ico-comm i-person"></i>
+		                        <a href="javascript:;" title="立即登录">立即登录</a>
+		                    </div>
+		                    <!-- 登录前 E-->
+		                    <!-- 登录后 S-->
+		                    <div class="loginbox clearfix" style="display: none;">
+		                        <div class="login-info">
+		                            <div class="fl hdimg">
+		                                <img src="" width="38" height="38" alt="头像">
+		                            </div>
+		                            <p class="fl hdname"></p>
+		                        </div>
+		                        <div class="top-hover">
+		                            <div class="arrow"></div>
+		                            <div class="link-list">
+		                                <a href="myorder-lol.html" title="订单管理" target="_blank">
+		                                    <i class="fl ico-comm i-order"></i>
+		                                    <span>订单管理</span>
+		                                </a>
+		                                <a href="address.html" title="地址管理" target="_blank">
+		                                    <i class="fl ico-comm i-addr"></i>
+		                                    <span>地址管理</span>
+		                                </a>
+		                                <a href="coupon-lol.html" title="优惠卡券" target="_blank">
+		                                    <i class="fl ico-comm i-quan"></i>
+		                                    <span>优惠卡券</span>
+		                                </a>
+		                                <a href="collect-lol.html" title="我的收藏" target="_blank">
+		                                    <i class="fl ico-comm i-collect"></i>
+		                                    <span>我的收藏</span>
+		                                </a>
+		                                <a href="sub-lol.html" title="订阅管理" target="_blank">
+		                                    <i class="fl ico-comm i-subs"></i>
+		                                    <span>订阅管理</span>
+		                                </a>
+		                                <a href="receive-lol.html" title="领取中心" target="_blank">
+		                                    <i class="fl ico-comm i-lqcen"></i>
+		                                    <span>领取中心</span>
+		                                </a>
+		                                <a href="javascript:;" class="quit-link" title="退出登录">
+		                                    <i class="fl ico-comm i-quit"></i>
+		                                    <span>退出登录</span>
+		                                </a>
+		                            </div>
+		                        </div>
+		                    </div>
+		                    <!-- 登录后 E-->
+		                </div>
+		                <div class="fr sosobox clearfix">
+		                    <a href="javascript:;" class="ico-comm i-search" title="搜索">搜索</a>
+		                    <input class="top-soso" placeholder="请输入想要找的宝贝">
+		                </div>
+		            </div>
+		        </div>
+		        <!-- top-info E -->
+		        <!-- top-head S -->
+		        <div class="top-head top-lol">
+		            <div class="top-menu">
+		                <div class="mid clearfix">
+		                    <ul class="fl menulist clearfix" id="blk_header_navbar">                          <li class="cur">
+		                        <!-- <a href="//mall.qq.com/lol/" class="ico-comm" title="首页"                            >首页</a> -->
+		                        <a href="//mall.qq.com/lol/" class="ico-comm" title="首页" target="_blank">首页</a>
+		                    </li>
+		                        <li class="cur">
+		                            <!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=101" class="ico-comm" title="雕塑手办"                            >雕塑手办</a> -->
+		                            <a href="https://mall.qq.com/lol/productlist.shtml?catid=101" class="ico-comm" title="雕塑手办" target="_blank">雕塑手办</a>
+		                        </li>
+		                        <li class="cur">
+		                            <!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=119" class="ico-comm" title="毛绒玩偶"                            >毛绒玩偶</a> -->
+		                            <a href="https://mall.qq.com/lol/productlist.shtml?catid=119" class="ico-comm" title="毛绒玩偶" target="_blank">毛绒玩偶</a>
+		                        </li>
+		                        <li class="cur">
+		                            <!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=120" class="ico-comm" title="周边服饰"                            >周边服饰</a> -->
+		                            <a href="https://mall.qq.com/lol/productlist.shtml?catid=120" class="ico-comm" title="周边服饰" target="_blank">周边服饰</a>
+		                        </li>
+		                        <li class="cur">
+		                            <!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=117" class="ico-comm" title="官方海报"                            >官方海报</a> -->
+		                            <a href="https://mall.qq.com/lol/productlist.shtml?catid=117" class="ico-comm" title="官方海报" target="_blank">官方海报</a>
+		                        </li>
+		                        <li class="cur">
+		                            <!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=215" class="ico-comm" title="LPL周边"                            >LPL周边</a> -->
+		                            <a href="https://mall.qq.com/lol/productlist.shtml?catid=215" class="ico-comm" title="LPL周边" target="_blank">LPL周边</a>
+		                        </li>
+		                    </ul>
+		                    <a href="/lol/productlist.shtml" class="fr all-class" title="全部商品分类" target="_blank">
+		                        <span>全部商品分类</span>
+		                        <i class="ico-comm i-arrbot"></i><!-- 点击添加i-arrtop -->
+		                    </a>
+		                </div>
+		            </div>
+		            <!-- 子菜单 -->
+		            <div class="top-submenu" style="display: none;">
+		                <div class="mid clearfix">
+		                    <ul class="submenu-ul" id="blk_header_submenu">                         <li class="submenu-li">
+		                        <a class="class-name" href="/lol/productlist.shtml?catid=101" target="_blank">
+		                            <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145105_88040.png" alt="图标" width="30">
+		                            <p>雕塑手办</p>
+		                        </a>
+		                        <ul class="class-list">
+		                            <li><a href="/lol/productlist.shtml?catid=121" target="_blank">大型雕塑</a></li>
+		                            <li><a href="/lol/productlist.shtml?catid=122" target="_blank">中型雕塑</a></li>
+		                            <li><a href="/lol/productlist.shtml?catid=209" target="_blank">手办</a></li>
+		                            <li><a href="/lol/productlist.shtml?catid=208" target="_blank">限定手办</a></li>
+		                            <li><a href="/lol/productlist.shtml?catid=676" target="_blank">迷你手办</a></li>
+		                        </ul>
+		                    </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=119" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145058_70222.png" alt="图标" width="30">
+		                                <p>毛绒玩偶</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=126" target="_blank">帽子</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=125" target="_blank">玩偶</a></li>
+		                            </ul>
+		                        </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=120" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145046_11520.png" alt="图标" width="30">
+		                                <p>男女服饰</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=668" target="_blank">其他</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=128" target="_blank">T恤</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=127" target="_blank">卫衣&amp;夹克</a></li>
+		                            </ul>
+		                        </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=117" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145027_24747.png" alt="图标" width="30">
+		                                <p>海报艺术</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=129" target="_blank">英雄海报</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=214" target="_blank">画册</a></li>
+		                            </ul>
+		                        </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=215" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181024161609_23161.png" alt="图标" width="30">
+		                                <p>LPL周边</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=434" target="_blank">LPL其他</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=1045" target="_blank">LPL X NIKE</a></li>
+		                            </ul>
+		                        </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=116" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145019_53471.png" alt="图标" width="30">
+		                                <p>其他</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=210" target="_blank">其他</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=131" target="_blank">鼠标垫</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=361" target="_blank">手机壳</a></li>
+		                            </ul>
+		                        </li>
+		                        <li class="submenu-li">
+		                            <a class="class-name" href="/lol/productlist.shtml?catid=665" target="_blank">
+		                                <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181024161530_16295.png" alt="图标" width="30">
+		                                <p>珠宝首饰</p>
+		                            </a>
+		                            <ul class="class-list">
+		                                <li><a href="/lol/productlist.shtml?catid=666" target="_blank">幸运珠</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=669" target="_blank">吊坠</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=670" target="_blank">手链</a></li>
+		                                <li><a href="/lol/productlist.shtml?catid=667" target="_blank">配件</a></li>
+		                            </ul>
+		                        </li>
+		                    </ul>
+		                </div>
+		            </div>
+		        </div>
+		        <!-- top-head E -->
+		    </div>
+		</div>
+		<!-- 中间内容区  -->
+		<div class="order-bg">
+			<div class="order-cont mid xj">
+				<strong>选择收货地址</strong>
+				<div id="blk_pay_address">
+					<div class="address-list">
+						<ul class="clearfix">
+							<li id="li-1" class="in">
+								<span>多少岁s</span>
+								<p class="sg">傻傻</p>
+								<p class="fl mr30">3333333</p>
+								<p class="fl mr30">13456789011</p>
+								<p class="fl">1345678</p>
+							</li>
+							<li id="li-2" class="in">
+								<span>多少岁s</span>
+								<p class="sg">傻傻</p>
+								<p class="fl mr30">3333333</p>
+								<p class="fl mr30">13456789011</p>
+							</li>
+							<li id="li-3" class="on in">
+								<span>多少岁s</span>
+								<p class="sg">傻傻</p>
+								<p class="fl mr30">3333333</p>
+								<p class="fl mr30">13456789011</p>
+								<a title="默认地址" class="m-r m-r-1" style="background: #ccc;color: #fff;display: block;">&nbsp;&nbsp;默认地址&nbsp;&nbsp;</a>
+							</li>
+							<li id="li-4" class="in">
+								<span>多少岁s</span>
+								<p class="sg">傻傻</p>
+								<p class="fl mr30">3333333</p>
+								<p class="fl mr30">13456789011</p>
+								<p class="fl">1345678</p>
+								<a class="m-r">设为默认</a>
+								<a href="javascript:;" class="tx js_pay_address_edit"></a>
+								<a href="javascript:;" class="gb js_pay_address_del"></a>
+							</li>
+							<li class="tj">
+			                    <a href="#"><em></em><b>新增收货地址</b></a>
+			                </li>
+						</ul>
+					</div>
+				</div>
+				<div class="order-goods">
+					<div>
+						<strong>确认商品信息</strong>
+						<div class="order-details">
+							<table>
+								<colgroup>
+									<col width="150" />
+									<col width="380" />
+									<col width="100" />
+									<col width="200" />
+									<col width="200" />
+									<col width="200" />
+								</colgroup>
+								<thead>
+									<tr>
+										<th colspan="3" >商品信息</th>
+										<th>单价（元）</th>
+										<th>数量</th>
+										<th>金额（元）</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<div class="img">
+												<div>
+													<a href="#">
+														<img src="image/orderplace/20200102110657_67912.jpg" width="113" height="108" />
+													</a>
+												</div>
+											</div>
+										</td>
+										<td class="td-1">
+											<span>
+												<a href="/lol/detail.shtml?id=12555" target="_blank">新春系列 提伯斯毛绒挂件盲盒</a>
+											</span>
+										</td>
+										<td class="td-2">
+			                                <span class="col">颜色: 彩色</span>
+			                                <span class="col">尺码: 均码</span>
+			                            </td>
+			                            <td>
+			                            	<span>59.00 元</span>
+			                            </td>
+			                            <td>
+			                                <span>
+			                                    1
+			                                </span>
+			                            </td>
+			                            <td>
+			                                <b>                                   
+			                                    59.00 元
+			                                   
+			                                </b>
+			                            </td>
+									</tr>
+								</tbody>
+							</table>
+							<p>订单备注:<input /></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="order-discount mid" style="padding-bottom: 80px;">
+				<div class="purchase">
+					<ul class="clearfix">
+	                    <li>1件商品，商品总价</li>
+	                    <li class="t1">59.00 元</li>
+	                    <li>VIP抵扣</li>
+	                    <li class="t1">- 0.00 元</li>
+	                    <li>优惠券</li>
+	                    <li class="t1">- 0.00 元</li>
+	                    <li>聚豆抵扣</li>
+	                    <li class="t1">- 0.00 元</li>
+	                    <li>运费：</li>
+	                    <li class="t1">15.00 元</li>
+	                    <li>实付款（含运费）</li>
+	                    <li class="t1"><b>74.00 元</b></li>
+	                    <li class="t3">寄送至： 起来莫德里奇·还没开呢叫你 </li>
+	                    <li class="t2">收货人：吃饭 12345678901</li>
+	                </ul>
+					<div class="purchase-btn">
+						<a href="#" title="提交订单" class="dd-btn">提交订单</a>
+						<a href="#" title="返回购物车修改" class="xg-btn">返回购物车修改</a>
+					</div>
+				</div>
+			</div>
+			<div class="jj">
+				
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="footer">
+		    <div class="mid clearfix" style="border-bottom: 0px;">
+		        <a href="index1.html" target="_bank" class="footer-djc" title="道聚城"><img src="image/orderplace/djc_logo.png" width="187" alt="爱联盟"></a>
+		        <ul class="footer-info fl" style="margin-top: 50px; margin-left:317px ;">
+		            <li><a href="help-1.html" target="_blank"><span class="ic04 in comm-top"></span>购物指南</a></li>
+		            <li><a href="help-1.html" target="_blank"><span class="ic07 in comm-top"></span>配送方式</a></li>
+		            <li><a href="help-1.html" target="_blank"><span class="ic05 in comm-top"></span>常见操作</a></li>
+		            <li><a href="help-1.html" target="_blank"><span class="ic06 in comm-top"></span>售后服务</a></li>
+		            <li><a href="help-1.html" target="_blank"><span class="ic08 in comm-top"></span>关于我们</a></li>
+		        </ul>
+		        <ul class="footer-code fl" style="padding-left: 0px; margin-top: 0px; margin-bottom: 0px;" >
+		            <li>
+		                <img src="image/orderplace/jcp_gzh.jpg" width="100" height="100" alt="聚诚品公众号">
+		                <p>爱联盟公众号</p>
+		            </li>
+		            <li>
+		                <img src="image/orderplace/djc_gzh.jpg" width="100" height="100" alt="道聚城公众号">
+		                <p>爱联盟公众号</p>
+		            </li>
+		            <li class="pr0">
+		                <img src="image/orderplace/djc_app.png" width="100" height="100" alt="掌上道聚城">
+		                <p>爱联盟道聚城</p>
+		            </li>
+		        </ul>
+		    </div>
+		</div>
+		<!-- 新增收货地址弹出框 -->
+		<div class="popup" id="popup_pay_address" style="width: 580px;display: none;visibility: visible;position: fixed;z-index: 9999;left: 50%;top: 50%;margin-top: -225px;margin-left: -291px;">
+			<a href="#" class="popup-close" title="关闭"><i class="comicon i-close"></i></a>
+			<div class="popup-main">
+				<h4>新增收货地址( <span style="color:red;">*</span> 为必填项)</h4>
+				<div class="popup-error" style="margin: 10px auto 0;text-align: center;color:red;"></div>
+				<div class="popup-con">
+					<div class="popup-form"> 
+						<form >
+							<div class="form-group">
+								<label class="fl"><span style="color:red;">*</span>收件人</label>
+								<input class="fl wth400" placeholder="收件人" />
+							</div>
+							<div class="form-group zd10">
+								<label class="fl"><span style="color:red;">*</span>所在地区</label>
+								<div>
+									<div class="fl mrselect mr20 wth125">
+										<span class="selected" >请选择</span>
+										<i class="comicon i-grayarrow" ></i>
+									</div>
+									<div class="fl mrselect mr20 wth125">
+										<span class="selected" >请选择</span>
+										<i class="comicon i-grayarrow" ></i>
+									</div>
+									<div class="fl mrselect mr20 wth125">
+										<span class="selected" >请选择</span>
+										<i class="comicon i-grayarrow" ></i>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="fl"><span style="color:red;">*</span>收件人地址</label>
+								<input class="fl wth400" placeholder="收件人地址" />
+							</div>
+							<div class="form-group">
+								<label class="fl"><span style="color:red;">*</span>手机号码</label>
+								<input class="fl wth140" placeholder="手机号码" />
+								<label class="fl ml20">固定电话</label>
+								<input class="fl wth140" placeholder="固定电话" />
+							</div>
+							<div class="form-group">
+		                        <label class="fl">邮政编码</label>
+		                        <input class="fl wth140" placeholder="邮政编码" />
+		                    </div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="popup-con">
+				<div class="popup-btnbox ml0 mb30">
+		            <a href="#" class="popup-btn btn-sure">确认</a>
+		        </div>
+			</div>
+		</div>
+		<script src="js/jquery-min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/orderplace.js"></script>
+	</body>
+	
+</html>
