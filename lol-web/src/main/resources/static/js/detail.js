@@ -51,4 +51,13 @@ $(function(){
 	$.get("bottom.html", function (data) {
 		$(".bottom").html(data);
 	});
+	$.ajax({
+		url:"product/detail",
+		method:"get",
+		data:{"productId":"1"},
+		success:function (result) {
+			alert(result.data.productName)
+			alert(result.data.productId);
+		}
+	})
 })
