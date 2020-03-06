@@ -15,7 +15,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>lol-service</artifactId>
@@ -37,16 +36,13 @@
             <artifactId>spring-boot-devtools</artifactId>
             <optional>true</optional>
         </dependency>
-=======
-<!--        <dependency>-->
-<!--            <groupId>org.example</groupId>-->
-<!--            <artifactId>lol-service</artifactId>-->
-<!--            <version>${project.version}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lol-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
 
-    </dependencies>
     <build>
         <plugins>
             <plugin>
