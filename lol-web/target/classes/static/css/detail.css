@@ -1,0 +1,610 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f5f5f5;
+	min-width: 1280px;
+	font: 14px/30px Microsoft YaHei;
+	line-height: 30px;
+	color:#3a3f4a;
+}
+a{
+	text-decoration:none;
+	outline:none;
+}
+.top-bar{
+	width: 100%;
+	background: #0e0e0f;
+	height: 155px;
+}
+.mainwrap{
+	width: 1280px;
+	margin: 0 auto;
+	height: auto;
+	padding-bottom: 40px;
+}
+.comm-tit {
+	height: 27px;
+	line-height: 27px;
+	margin: 20px 0 40px;
+}
+.comm-tit .index-link {
+	font: 14px/26px 'Microsoft Yahei';
+	color: #828282;
+	margin-right: -8px;
+}
+.ml5{
+	margin-left:5px;
+}
+.comm-tit em {
+	font: 14px/26px 'Microsoft Yahei';
+	padding-left: 8px;
+}
+.product-intro{
+	padding: 30px 0 35px;
+	width: 1280px;
+	min-height: 540px;
+	height: auto;
+	background: #fff;
+}
+.product-intro .product-preview {
+	margin: 0 40px 0 30px;
+	width: 460px;
+	height: 440px;
+}
+.product-preview .good-imgs {
+	position: relative;
+	width: 460px;
+	height: 440px;
+	border:1px solid #f2f2f2;
+}
+.product-preview .good-imgs ul li {
+	width: 460px;
+	height: 440px;
+}
+.product-preview .good-imgs ul li {
+	width: 78px;
+	height: 74px;
+}
+.product-preview .good-imgs ul li.picshow {
+	display: block;
+}
+.product-preview .good-imgs .i-mark {
+	position: absolute;
+	top: -1px;
+	right: 20px;
+	z-index: 10;
+	padding: 0 10px 7px;
+	width: 28px;
+	height: 40px;
+	background: url(../image/detail/ico-comm.png) no-repeat;
+	background-position: -279px -85px;
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+	font-weight: bold;
+	display: table;
+}
+.product-preview .good-imgs .mark-txt {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 14px;
+}
+.product-preview .product-image detail img{
+	display: block;
+	width: 458px;
+	height: 438px;
+}
+.picdetails{
+	width: 540px;
+	height: 100px;
+}
+.i-mark{
+	float: right;
+}
+#spec-list img:hover{
+	border:3px solid #f74a4a;
+	cursor: pointer;
+}
+.product-info .pord-name{
+	color: #333333;
+	width: 100%;
+	font-size: 28px;
+	line-height: 36px;
+}
+.fl{
+	float: left;
+}
+.product-info .pord-price {
+	padding: 20px 0 25px;
+	width: 100%;
+	height: 28px;
+}
+.product-info .pord-price .pord-dispri{
+	color: #f74f4a;
+	font-size: 30px;
+	line-height: 31px;
+	font-weight: bold;
+}
+.product-info .pord-price .pord-orpri {
+	padding-left: 5px;
+	font-size: 16px;
+	line-height: 38px;
+	text-decoration: line-through;
+	color: #999;
+}
+.product-info {
+	width: 720px;
+	height: auto;
+}
+.pord-detailbox {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-top: 1px dashed #eee;
+	border-bottom: 1px dashed #eee;
+	font-size: 14px;
+}
+.pord-detailbox .pord-sold {
+	width: 310px;
+	color: #999;
+}
+.pord-detailbox .pord-totalcom {
+	color: #999;
+}
+.pord-detailbox .pord-starbox {
+	font-size: 20px;
+	color: #ffd92c;
+}
+.pord-starbox .i-star0 {
+	background-position: -115px -104px;
+}
+.pord-starbox i {
+	margin: -4px 6px 0 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: 111px;
+	height: 18px;
+}
+.ico-detail {
+	background: url(../image/detail/ico-detail.png) no-repeat;
+}
+.fr {
+	float: right;
+}
+.pord-sellist li {
+    float: left;
+    margin: 0 0 20px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-align: center;
+    line-height: 14px;
+    cursor: pointer;
+}
+.pord-detailbox .pord-sold span {
+	color: #333;
+}
+.pord-detailbox .pord-totalcom span {
+	color: #333;
+}
+.product-info label {
+	color: #888;
+	padding-top: 5px;
+}
+.pord-sellist {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+}
+#blk_detail_main_spec{
+	 height: auto;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.product-info label {
+    color: #888;
+    padding-top: 5px;
+}
+.fl {
+    float: left;
+}
+.pord-sellist ul {
+    width: 660px;
+}
+.fl {
+    float: left;
+}
+.ml28 {
+    margin-left: 28px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt11 {
+    margin-top: 20px;
+}
+.pord-sellist ul {
+    width: 660px;
+}
+ul {
+    list-style: none;
+}
+.pord-sellist li.current .pord-selbox, .pord-sellist li.current .pord-samebox {
+    border-color: #f74a4a;
+}
+.pord-sellist li .pord-selbox {
+    padding: 7px 17px;
+    border: 3px solid #fff;
+}
+.product-info label.pt10 {
+    padding-top: 10px;
+}
+.product-info label {
+    color: #888;
+    padding-top: 5px;
+}
+.ml42 {
+    margin-left: 42px;
+}
+.product-info .pord-num .pord-stock {
+    font-size: 14px;
+    color: #5e6360;
+    padding-left: 10px;
+    line-height: 34px;
+}
+
+.product-info .pord-num .num-plus, .product-info .pord-num .num-minus {
+    width: 34px;
+    height: 34px;
+    display: block;
+    text-indent: -9999em;
+    border: 1px solid #ddd;
+}
+a {
+    color: #3a3f4a;
+    text-decoration: none;
+    outline: none;
+}
+.ico-detail {
+    background: url(../image/detail/ico-detail.png) no-repeat;
+}
+.product-info .pord-num .num-plus .ico-detail {
+    margin: 16px auto;
+    width: 10px;
+    height: 2px;
+    background-position: -2px -2px;
+    display: block;
+}
+.product-info .pord-num .num-minus .ico-detail {
+    margin: 12px auto;
+    width: 10px;
+    height: 10px;
+    background-position: -16px -2px;
+    display: block;
+}
+.product-info .pord-num .nummidbtn {
+    width: 58px;
+    height: 34px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 34px;
+    color: #333;
+    display: block;
+    font-size: 14px;
+    cursor: default;
+}
+.product-info .pord-btn {
+    margin-top: 30px;
+}
+.product-info .pord-btn .joincart-btn, .group-action .joincart-btn {
+    background: #f05335;
+}
+.product-info .pord-btn .buy-btn, .group-action .buy-btn, .porduct-detail .pord-tab ul li .i-tabline {
+    background: #ec4828;
+}
+.ml30 {
+    margin-left: 30px;
+}
+.product-info .pord-btn .btn-collect, .product-info .pord-btn .btn-collected {
+    margin: 12px 0 0 30px;
+    display: block;
+    width: 84px;
+    height: 28px;
+    line-height: 28px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #888;
+    position: relative;
+    text-indent: 16px;
+}
+.product-info .pord-btn a {
+    display: block;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    opacity: 1;
+}
+.product-info .pord-btn .ico-collect {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    z-index: 2;
+    width: 16px;
+    height: 14px;
+    background-position: -107px -2px;
+}
+#btn_detail_cart_add:hover,#btn_detail_cart_buy:hover{
+	opacity: 0.9;
+}
+li.hoverColor .pord-selbox:hover{
+	    border-color: #f74a4a;
+}
+.product-info .pord-btn .btn-collect:hover{
+	border-color: #f74a4a;
+}
+.porduct-detail {
+    width: 1280px;
+    height: auto;
+    background: #fff;
+}
+.mt20 {
+    margin-top: 20px;
+}
+detail .pord-tab {
+    margin: 0 auto 20px;
+    width: 1220px;
+    height: 71px;
+    border-bottom: 1px solid #eee;
+}
+.porduct-detail .pord-tab ul {
+    margin: 0 auto;
+    width: 705px;
+}
+.porduct-detail .pord-tab ul li {
+    float: left;
+    width: 235px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.porduct-detail .pord-tab {
+    margin: 0 auto 20px;
+    width: 1220px;
+    height: 71px;
+    border-bottom: 1px solid #eee;
+}
+.porduct-detail .pord-tab ul li {
+    float: left;
+    width: 235px;
+    height: 71px;
+    line-height: 71px;
+    text-align: center;
+    color: #333;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.porduct-detail .pord-tab ul li .i-tabline {
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+    background: #ffc001;
+    display: none;
+}
+.porduct-detail .pord-tab ul li .i-tabline {
+    background: #ec4828;
+}
+.tabcont .pord-detail .parameter {
+    font-size: 14px;
+    color: #777;
+    margin-left: 44px;
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.tabcont .pord-detail .parameter .par-name {
+    width: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tabcont .pord-detail .parameter ul li {
+    float: left;
+    width: 300px;
+    margin-bottom: 6px;
+}
+.tabcont .pord-detail .detailbox {
+    height: auto;
+    text-align: left;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.tabcont .pord-detail .detailbox img {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.pord-comment .all-comment {
+    margin: 35px auto 18px;
+    width: 336px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #333;
+}
+.page {
+    text-align: left;
+    padding: 30px 0;
+    height: 38px;
+    font-size: 16px;
+    position: relative;
+}
+.pord-comment .all-comment .all-point {
+    font-size: 28px;
+    color: #ffca11;
+}
+.pord-comment .all-comment .pord-starall i {
+    margin: -5px 10px 0 5px;
+    width: 148px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.pord-starall .i-star0 {
+    background-position: -156px -152px;
+}
+.comment-list .cent-ul .headimg {
+    width: 72px;
+    height: auto;
+}
+.comment-list .cent-ul .comment-text {
+    margin: 0 0 0 40px;
+    width: 1060px;
+}
+.comment-list {
+    margin: 0 auto;
+    width: 1220px;
+}
+.comment-point {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #888;
+}
+.comment-list .text-detail {
+    margin-top: 18px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #333;
+}
+.comment-list .cent-ul .headimg .imgbox {
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.comment-list .cent-ul .headimg .qqnick {
+    width: 100%;
+    padding-top: 17px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.comment-list .cent-ul li {
+    width: 100%;
+    padding: 36px 0 30px;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+}
+.comment-point .all-point {
+    font-size: 22px;
+    color: #ffca11;
+}
+.comment-point .pord-starbox {
+    margin-left: 15px;
+}
+.comment-list .cent-ul .headimg {
+    width: 72px;
+    height: auto;
+}
+.comment-list .cent-ul .headimg .imgbox img {
+    display: block;
+    width: 72px;
+    height: 72px;
+}
+.pord-starbox .i-star10 {
+    background-position: 0 -104px;
+}
+.pord-contact {
+    height: auto;
+    padding-bottom: 100px;
+}
+.pord-contact dl {
+    margin: 0 0 24px 40px;
+    line-height: 1;
+    font-size: 14px;
+}
+.pord-contact dt {
+    margin-bottom: 12px;
+    padding-left: 25px;
+    color: #1e1e1e;
+    background: url(../image/detail/contact.png) no-repeat;
+    height: 16px;
+    line-height: 16px;
+    background-position: 0 0;
+}
+.pord-contact dd {
+    color: #777;
+    line-height: 24px;
+}
+.pord-contact .contact-service {
+    padding-top: 24px;
+}
+.pord-contact .contact-service a {
+    display: block;
+    width: 65px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ededed;
+    border-radius: 2px;
+    color: #777;
+    padding-left: 28px;
+    background: url(../image/detail/icon-qq.png) 8px center no-repeat;
+}
+.pord-contact .contact-method dt {
+    background-position: 0 -16px;
+}
+.porduct-detail .pord-tab ul li.curtab .i-tabline {
+    display: block;
+}
+strong{
+	font-size: 36px;
+	font-style: normal;
+	font-weight: normal;
+}
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	border-radius: 0;
+	background: rgba(0,0,0,0.1);
+}
