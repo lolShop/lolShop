@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的收藏</title>
+		<link href="css/allcss.css" rel="stylesheet"/>
+		<link href="css/collect.css" rel="stylesheet"/>
+		<script src="js/jquery-min.js"></script>
+	</head>
+	<body style="margin: 0; background-color:#f5f5f5;">
+		<div style="width: 100%; height: 156px; background-color: black;"></div>
+		<div class="center mid">
+		    <!-- center-none S -->
+		    <div class="center-main clearfix">
+		        <!-- 左边的菜单栏 -->
+				<div class="f1 center-leftbar">
+					<p class="cleftbar-tit"><b>个人中心</b></p>
+					<ul class="cleftbar-ul">
+						<li class="cleftbar-li myorder">
+							<a href="myorder.html" class="cleftbar-link" title="我的订单">我的订单</a>
+						</li>
+						<li class="cleftbar-li coupon">
+							<a href="#" class="cleftbar-link" title="优惠卡券">优惠卡券</a>
+						</li>
+						<li class="cleftbar-li address">
+							<a href="address.html" class="cleftbar-link" title="收货地址">收货地址</a>
+						</li>
+						<li class="cleftbar-li collect">
+							<a href="collect.html" class="cleftbar-link" title="我的收藏">我的收藏</a>
+						</li>
+						<li class="cleftbar-li personal">
+							<a href="personal.html" class="cleftbar-link" title="个人信息">个人信息</a>
+						</li>
+						<li class="cleftbar-li receive">
+							<a href="#" class="cleftbar-link" title="领取中心">领取中心</a>
+						</li>
+						<li class="cleftbar-li sub">
+							<a href="#" class="cleftbar-link" title="订阅中心">订阅中心</a>
+						</li>
+						<li class="cleftbar-li notice">
+							<a href="#" class="cleftbar-link" title="商城公告">商城公告</a>
+						</li>
+					</ul>
+					<!-- 实现经过标签后改变颜色 -->
+					<script>
+						$(function(){
+							$(".cleftbar-ul li").on("mouseover", function(){
+								$($(this).children()[0]).css("color", "#f3bf19");
+							})
+							$(".cleftbar-ul li").on("mouseleave", function(){
+								$($(this).children()[0]).css("color", "#666");
+								if($($(this).children()[0]).attr("title") == "我的收藏"){
+									$($(this).children()[0]).css("color", "#f3bf19");
+								}
+							})
+						})
+					</script>
+				</div>
+				<!-- 右边的主体 -->
+				<div class="f1 conter-cont">
+					<h2 class="ct-tit clearfix">
+						<span class="tit-fb">我的收藏</span>
+					</h2>
+					<div class="ct-collect">
+						<!-- collect-list -->
+						<div class="collect-list" id="dj1">
+							<!-- 如果没有收藏 -->
+							<!-- <div class="collect-none" >
+								您还没有收藏任何周边呢，<a href="#" class="yellow">快去逛逛吧></a>
+							</div> -->
+							<!-- 如果存在收藏 -->
+							<ul class="clearfix">
+								<li>
+									<div class="top-img">
+										<a class="colist-goodimg" target="_blank" href="javascript:0">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181219182251_97182.jpg" width="235" height="225" alt="商品图"/>
+										</a>
+										<div class="collect-action">
+											<div class="collect-actzzc"></div>
+											<a href="javascript:0" class="btn-cancel">取消收藏</a>
+										</div>
+									</div>
+									<p class="colist-name">穿越火线骷颅头迷你包</p>
+									<div class="colist-pri clearfix">
+										<span class="f1 colist-newpri">￥170.00</span>
+										<span class="f1 colist-oldpri">￥170.00</span>
+									</div>
+								</li>
+								<li>
+									<div class="top-img">
+										<a class="colist-goodimg" target="_blank" href="javascript:0">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181219182251_97182.jpg" width="235" height="225" alt="商品图"/>
+										</a>
+										<div class="collect-action">
+											<div class="collect-actzzc"></div>
+											<a href="javascript:0" class="btn-cancel">取消收藏</a>
+										</div>
+									</div>
+									<p class="colist-name">穿越火线骷颅头迷你包</p>
+									<div class="colist-pri clearfix">
+										<span class="f1 colist-newpri">￥170.00</span>
+										<span class="f1 colist-oldpri">￥170.00</span>
+									</div>
+								</li>
+								<li>
+									<div class="top-img">
+										<a class="colist-goodimg" target="_blank" href="javascript:0">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181219182251_97182.jpg" width="235" height="225" alt="商品图"/>
+										</a>
+										<div class="collect-action">
+											<div class="collect-actzzc"></div>
+											<a href="javascript:0" class="btn-cancel">取消收藏</a>
+										</div>
+									</div>
+									<p class="colist-name">穿越火线骷颅头迷你包</p>
+									<div class="colist-pri clearfix">
+										<span class="f1 colist-newpri">￥170.00</span>
+										<span class="f1 colist-oldpri">￥170.00</span>
+									</div>
+								</li>
+								<li>
+									<div class="top-img">
+										<a class="colist-goodimg" target="_blank" href="javascript:0">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181219182251_97182.jpg" width="235" height="225" alt="商品图"/>
+										</a>
+										<div class="collect-action">
+											<div class="collect-actzzc"></div>
+											<a href="javascript:0" class="btn-cancel">取消收藏</a>
+										</div>
+									</div>
+									<p class="colist-name">穿越火线骷颅头迷你包</p>
+									<div class="colist-pri clearfix">
+										<span class="f1 colist-newpri">￥170.00</span>
+										<span class="f1 colist-oldpri">￥170.00</span>
+									</div>
+								</li>
+								<li>
+									<div class="top-img">
+										<a class="colist-goodimg" target="_blank" href="javascript:0">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181219182251_97182.jpg" width="235" height="225" alt="商品图"/>
+										</a>
+										<div class="collect-action">
+											<div class="collect-actzzc"></div>
+											<a href="javascript:0" class="btn-cancel">取消收藏</a>
+										</div>
+									</div>
+									<p class="colist-name">穿越火线骷颅头迷你包</p>
+									<div class="colist-pri clearfix">
+										<span class="f1 colist-newpri">￥170.00</span>
+										<span class="f1 colist-oldpri">￥170.00</span>
+									</div>
+								</li>
+							</ul>
+							<script>
+								$(function(){
+									<!-- 取消收藏的显示和隐藏 -->
+									$(".top-img").on("mouseover", function(){
+										//var id = $(this).parent().parent().children()[0].innerHTML;
+										$($(this).children()[1]).css("display", "block");
+									});
+									$(".top-img").on("mouseleave", function(){
+										$($(this).children()[1]).css("display", "none");
+									})
+									<!-- 改变取消收藏的背景透明度 -->
+									$(".collect-action").on("mouseover", function(){
+										$($(this).children()[0]).css("opacity", "0.7");
+									});
+									$(".collect-action").on("mouseleave", function(){
+										$($(this).children()[0]).css("opacity", "0.5");
+									})
+								})
+							</script>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,116 @@
+@charset "gb2312";
+/*lol*/
+
+/*comm*/
+.dnfico{background:url(../images/ico-lol.png) no-repeat;}
+.comicon{background:url(../image/prodcutlist/icons.png) no-repeat;}
+a:hover{color:#ec4828;text-decoration:underline}
+.comm-btn{display:inline-block;background:#ec4828;color:#fff;text-align:center;cursor:pointer}
+a.comm-btn:hover{color:#fff;text-decoration:none;background:#e34424;}
+
+/*header*/
+.bg-index .wrap{background:#f0f0f0 url(../images/bg-wrap.jpg) no-repeat top center;}
+.bg-index .mainwrap{background:#f0f0f0 url(../images/bg-cont.jpg) no-repeat top center;}
+.header,.header .search{background:#141414;}
+.header .search .logo{margin:15px 77px 15px 62px;width:147px;}
+.header .search .logo .logo-lol{width:147px;height:74px;background:url(../images/logo-lol.png) no-repeat;}
+.header .search .logo .logo-djc{width:151px;height:48px;margin:34px 0 0 30px;background:url(../images/logo-djc.png) no-repeat;}
+.header .search .loginbox .btn-login{color:#fff;background:#ec4828;border-color:#ec4828;}
+.header .search .loginbox .btn-login:hover{background:#e34424;}
+.header .zbbox{margin:18px 0 0 0;width:240px;height:109px;}
+
+/*header theme*/
+.header .search .sbar{margin:43px 0 0 10px;width:431px;height:44px;}
+.header .search .sbar input{float:left;width:313px;font-size:14px;padding:2px 38px 0 10px;height:40px;line-height:40px;color:#a7a7a7;border:1px solid #646466;outline:none;background:#151515;}
+.header .search .sbar input:hover{color:#fff;}
+.header .search .sbar .btn{float:right;width:68px;height:44px;display:block;border:0;cursor:pointer;background:url(//js01.daoju.qq.com/zb/mall/images/sec.png) no-repeat;outline:none;}
+.header .search .sbar .btn:hover{background:url(//js01.daoju.qq.com/zb/mall/images/sec.png) no-repeat;}
+.header .search .sbar .sico{display: none;}
+.top-info{height:30px;line-height:30px;font-size:14px;color:#a7a7a7;background:#121212;position:relative;z-index:3;border-bottom: 1px solid #212122;}
+.top-info li a,.top-info li p{color:#a7a7a7;display:block;padding:0 22px;font-size: 14px;text-decoration:none;}
+.top-hover .jt{background:url(//js01.daoju.qq.com/zb/mall/images/tp-bg.png) center top no-repeat;height:5px;overflow:hidden;width:108px;}
+.top-hover .xg{border:none;border-bottom:solid 1px #ad8c3c;background:url(//js01.daoju.qq.com/zb/mall/images/xg.png) center top repeat;border-top:none;overflow:hidden;width:106px;padding-bottom:10px;}
+.top-info li .top-hover a{color:#a7a7a7;}
+.top-info li .top-hover a:hover{color:#fff;}
+
+/*header nav*/
+.nav li{width:142px;}
+.nav .all-class a.show-all{background:#ec4828;border-color:#ec4828;}
+.nav li a.active,.nav li a:hover{background:#ec4828;color:#fff}
+.nav .box{height:380px;background:#ef5c27;overflow:hidden;}
+a.b-cart i{border-color:#c64228;}
+.nav .box dt{height:63px;border-color:#e3450b;}
+.nav .box dt a{height:63px;line-height:63px;background:#ef5c27;}
+.nav .box dt a:hover{background:#e3450b;}
+.nav .box s.comicon{float:left;width:22px;height:18px;margin:22px 8px 0 40px}
+.i-classify{background-position: -94px -5px;}
+.i-statue{background-position: -42px -507px;}
+.i-gk{background-position: -42px -536px;}
+.i-doll{background-position: -42px -563px;}
+.i-fashion{background-position: -42px -591px;}
+.i-art{background-position: -42px -615px;}
+.i-zbmore{background-position: -42px -640px;}
+.i-crown{background-position:-151px -32px;}
+
+/*banner*/
+.slide .dot a.curr{background:#ec4828}
+.notice-list a:hover{color:#ec4828;}
+
+/*fixednav*/
+.fixednav a.fixedlink:hover{background:#ec4828;}
+
+/*topnav*/
+.topnav a:hover{background:#ec4828;}
+
+/*page*/
+.page a:hover{border-color:#ec4828}
+.page a.active{background:#ec4828;border-color:#ec4828}
+.page .active a{background:#ec4828;border-color:#ec4828}
+.page .pagenow{background:#ec4828;border-color:#ec4828}
+
+/*pop*/
+.popup{border-color:#ec4828;}
+.popup .popup-close{background:#ec4828;}
+.popup .popup-con .popup-ul li.payactive{border-color:#f74a4a;}
+.popup .popup-con .popup-ul li .i-mark{background: url(../images/icons.png) no-repeat;background-position: -111px -355px;}
+
+/*cartlist*/
+.cartlist li.ct-num .numbtn{background:#ec4828;}
+.cartlist li.ct-num .numbtn:hover{background:#e34424;}
+.cartlist li.ct-num .nummidbtn{border-color:#ec4828;}
+
+/*prod-list*/
+.prod-list .action-bar{background:#ec4828;}
+.prod-list .action-bar ul li.curbar a, .prod-list .action-bar ul li a:hover{background:#e34424;}
+
+/*address*/
+.address-list .addr-list ul li.current{background: #fde0da;border: 1px solid #fca290;}
+
+/*role-sel*/
+.role-sel .mrselect{border-color:#f74a4a;}
+.role-sel .mrselect .downarr{background:#f74a4a;}
+.role-sel .mrselect .downlist{border-color:#f74a4a;}
+
+/*product-info*/
+.pord-sellist li.current{border-color:#f74a4a;}
+.pord-sellist li.current .pord-selbox,.pord-sellist li.current .pord-samebox{border-color:#f74a4a;}
+.product-info .pord-btn .joincart-btn,.group-action .joincart-btn{background:#f05335;}
+.product-info .pord-btn .yshou-btn{background:#333;}
+.product-info .pord-btn .buy-btn,.group-action .buy-btn,.porduct-detail .pord-tab ul li .i-tabline{background:#ec4828;}
+.overlay .mycart-selist span.on{line-height:20px;padding:0 7px;border:2px solid #f74a4a;}
+
+/*product-preview*/
+.product-preview .picdetails ul li.active a, .product-preview .picdetails ul li a:hover{border-color:#f74a4a;}
+.product-preview .picdetails ul li.active,.product-preview .picdetails ul li:hover{border-color:#f74a4a;}
+
+/*paytab*/
+.paytab {background: url(../images/pay/icon_pay.png) no-repeat;}
+.paytab .pay-over{color:#ef5c27;}
+
+/*cart*/
+.input-check.checked{background:#ec4828;border-color:#ec4828;}
+.mycart-tb-btn{background:#ec4828;}
+.mycart-tb-btn:hover{background:#e34424;}
+
+/*payresult*/
+.pay-code{border-color:#ec4828;}

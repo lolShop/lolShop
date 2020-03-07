@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" href="css/allcss.css" />
+		<link rel="stylesheet" href="css/myorder.css"/>
+		<script src="js/jquery-min.js"></script>
+	</head>
+	<body style="margin: 0; background-color:#f5f5f5;">
+		<div style="width: 100%; height: 156px; background-color: black;"></div>
+		
+		<div class="center mid">
+		    <!-- center-none S -->
+		    <div class="center-main clearfix">
+		        <!-- 左边的菜单栏 -->
+				<div class="f1 center-leftbar">
+					<p class="cleftbar-tit"><b>个人中心</b></p>
+					<ul class="cleftbar-ul">
+						<li class="cleftbar-li myorder">
+							<a href="myorder.html" class="cleftbar-link" title="我的订单" style="color: #f3bf19;">我的订单</a>
+						</li>
+						<li class="cleftbar-li coupon">
+							<a href="#" class="cleftbar-link" title="优惠卡券">优惠卡券</a>
+						</li>
+						<li class="cleftbar-li address">
+							<a href="address.html" class="cleftbar-link" title="收货地址">收货地址</a>
+						</li>
+						<li class="cleftbar-li collect">
+							<a href="collect.html" class="cleftbar-link" title="我的收藏">我的收藏</a>
+						</li>
+						<li class="cleftbar-li personal">
+							<a href="personal.html" class="cleftbar-link" title="个人信息">个人信息</a>
+						</li>
+						<li class="cleftbar-li receive">
+							<a href="#" class="cleftbar-link" title="领取中心">领取中心</a>
+						</li>
+						<li class="cleftbar-li sub">
+							<a href="#" class="cleftbar-link" title="订阅中心">订阅中心</a>
+						</li>
+						<li class="cleftbar-li notice">
+							<a href="#" class="cleftbar-link" title="商城公告">商城公告</a>
+						</li>
+					</ul>
+					<!-- 实现经过标签后改变颜色 -->
+					<script>
+						$(function(){
+							$(".cleftbar-ul li").on("mouseover", function(){
+								$($(this).children()[0]).css("color", "#f3bf19");
+							})
+							$(".cleftbar-ul li").on("mouseleave", function(){
+								$($(this).children()[0]).css("color", "#666");
+								if($($(this).children()[0]).attr("title") == "我的订单"){
+									$($(this).children()[0]).css("color", "#f3bf19");
+								}
+							})
+						})
+					</script>
+				</div>
+				<!-- 右边的主体 -->
+				<div class="f1 conter-cont">
+					<div class="ct-tit clearfix">
+						<h2 class="f1 mr35">我的订单</h2>
+						<!-- <div class="f1 sorting-filter">
+							<div class="sfbox">
+								<span>全部游戏</span>
+								<i class="ico-center ico-sarr"></i>
+							</div>
+							<ul class="sortinglist" id="dj_collect_info">
+		
+							</ul>
+						</div> -->
+					</div>
+					<!-- 当前暂无订单 -->
+					<!-- <div class="center-none">
+						<i class="ico-none"></i>
+						<p class="none-tip">您当前暂无订单哦！</p>                  
+					</div> -->
+					<!-- 导航菜单 -->
+					<div class="ct-order">
+						<div class="ct-orderhead clearfix">
+							<ul class="f1 ct-ordertab">
+								<li id="1" class="current">
+									<span>所有订单</span>
+									<span class="ico-point allorder">0</span>
+								</li>
+								<li id="2">
+									<span>待付款</span>
+									<!-- 右上角数字 -->
+									<span class="ico-point topay" style="display: inline;">2</span>
+								</li>
+								<li id="3">
+									<span>待发货</span>
+									<span class="ico-point tosend"></span>
+								</li>
+								<li id="4">
+									<span>待收货</span>
+									<span class="ico-point toreceive"></span>
+								</li>
+								<li id="5">
+									<span>待评价</span>
+									<span class="ico-point tocomment"></span>
+								</li>
+							</ul>
+							<div class="fr order-ipt">
+								<input class="order-input" type="text" value="" placeholder="输入商品名称或订单号搜索" autocomplete="off" name="name">
+								<a href="javascript:;" class="order-search" onclick="searchOrder(this)" title="搜索"><i class="ico-center ico-search"></i></a>
+							</div>
+						</div>
+						<!-- 当没有订单的时候 -->
+						<!-- <div id="con_order" class="order-tabl">
+							<div id="dj1">
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待付款 订单哦！</p>
+								</div>
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待发货 订单哦！</p>
+								</div>
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待收货 订单哦！</p>
+								</div>
+							</div>
+						</div> -->
+						<div id="con_order" class="order-tabl">
+							<div id="dj1">
+								<table width="100%">
+									<thead>
+										<tr>
+											<th width="335" class="tl">商品</th>
+											<th width="105">单价（元）</th>
+											<th width="105">数量</th>
+											<th width="150">总计（元）</th>
+											<th width="150">订单状态</th>
+											<th width="150">操作</th>
+										</tr>
+									</thead>
+									<!-- 一个订单 -->
+									<tbody class="tbbr">
+										<tr class="tbhead">
+											<td colspan="5" class="tl">
+												<span>供应商名称：合泰文化</span>
+												<span class="tb-padl">订单号：CF-20200120120111766-541</span>
+												<span class="tb-padl">2020-01-20 12:01:11</span>
+											</td>
+											<td>
+												<a href="#"class="ico-center btn-del">删除</a>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3" class="brl">
+												<div>
+													<a href="#" style="display: block;" class="f1 relpic" target="_blank">
+														<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191112190040_40410.jpg" width="113" height="108" alt="商品图" />
+													</a>
+													<div class="f1 reinfo clearfix">
+														<div class="relname">审判者Q版手办-潜伏者【全款预售】</div>
+														<div class="reldesc">阵营：潜伏者</div>
+														<a class="reldesc" href="#">来源：聚诚品</a>
+													</div>
+													<div class="f1 reprice">
+														<p class="re-newpri">70.00</p>
+														<p class="re-oldpri">70.00</p>
+													</div>
+													<div class="f1 renum">1</div>
+												</div>
+											</td>
+											<td rowspan="1">
+												<div class="re-total">70.00</div>
+												<div class="re-freight">（含运费：0.00）</div>
+											</td>
+											<td rowspan="1">
+												<div class="re-status">
+													<font class="cff0 fb lh24">已过期</font>
+												</div>
+											</td>
+											<td rowspan="1">
+												<a href="orderdetail.html" class="mt20 re-link" title="订单详情" target="_blank">订单详情</a>
+											</td>
+										</tr>
+									</tbody>
+									<!-- 一个订单 -->
+									<tbody class="tbbr">
+										<tr class="tbhead">
+											<td colspan="5" class="tl">
+												<span>供应商名称：合泰文化</span>
+												<span class="tb-padl">订单号：CF-20200120120111766-541</span>
+												<span class="tb-padl">2020-01-20 12:01:11</span>
+											</td>
+											<td>
+												<a href="#"class="ico-center btn-del">删除</a>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3" class="brl">
+												<div>
+													<a href="#" style="display: block;" class="f1 relpic" target="_blank">
+														<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191112190040_40410.jpg" width="113" height="108" alt="商品图" />
+													</a>
+													<div class="f1 reinfo clearfix">
+														<div class="relname">审判者Q版手办-潜伏者【全款预售】</div>
+														<div class="reldesc">阵营：潜伏者</div>
+														<a class="reldesc" href="#">来源：聚诚品</a>
+													</div>
+													<div class="f1 reprice">
+														<p class="re-newpri">70.00</p>
+														<p class="re-oldpri">70.00</p>
+													</div>
+													<div class="f1 renum">1</div>
+												</div>
+											</td>
+											<td rowspan="1">
+												<div class="re-total">70.00</div>
+												<div class="re-freight">（含运费：0.00）</div>
+											</td>
+											<td rowspan="1">
+												<div class="re-status">
+													<font class="cff0 fb lh24">已过期</font>
+												</div>
+											</td>
+											<td rowspan="1">
+												<a href="#" class="ce-btn btn-repay" title="去支付">去支付</a>
+												<a href="#" class="ce-btn btn-repay" title="取消支付">取消支付</a>
+												<a href="orderdetail.html" class="mt20 re-link" title="订单详情" target="_blank">订单详情</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div id="dj2" style="display: none;">
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待付款 订单哦！</p>
+								</div>
+							</div>
+							<div id="dj3" style="display: none;">
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待发货 订单哦！</p>
+								</div>
+							</div>
+							<div id="dj4" style="display: none;">
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待收货 订单哦！</p>
+								</div>
+							</div>
+							<div id="dj5" style="display: none;">
+								<div class="center-none">
+									<i class="ico-none"></i>
+									<p class="none-tip">您当前暂无 待评价 订单哦！</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script>
+						$(function(){
+							//点击哪个菜单，就变色
+							$('.ct-ordertab li').on('click', function(){
+								$('.ct-ordertab li').removeClass('current');
+								$(this).addClass('current');
+							});
+							
+							//点击哪个菜单，就出现相应内容
+							$('.ct-ordertab li').on('click', function(){
+								//获取当前点击的li元素在ul中的索引
+								var index = $('.ct-ordertab li').index(this);
+								//点击的li对应的div的id
+								var id = 'dj'+(index+1);
+								//所有的div
+								var all = $('#con_order').children();
+								all.css('display', 'none');
+								$('#'+id).css('display', 'block');
+							});
+						})
+					</script>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
