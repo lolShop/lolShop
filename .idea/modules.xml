@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lol.iml" filepath="$PROJECT_DIR$/lol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-admin/lol-admin.iml" filepath="$PROJECT_DIR$/lol-admin/lol-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-api/lol-api.iml" filepath="$PROJECT_DIR$/lol-api/lol-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-dao/lol-dao.iml" filepath="$PROJECT_DIR$/lol-dao/lol-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-entity/lol-entity.iml" filepath="$PROJECT_DIR$/lol-entity/lol-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-service/lol-service.iml" filepath="$PROJECT_DIR$/lol-service/lol-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-util/lol-util.iml" filepath="$PROJECT_DIR$/lol-util/lol-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lol-web/lol-web.iml" filepath="$PROJECT_DIR$/lol-web/lol-web.iml" />
+    </modules>
+  </component>
+</project>

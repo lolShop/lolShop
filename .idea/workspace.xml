@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ca0ccff-833f-43de-ae96-1e640ec8b7e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/lol-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/java/edu/nf/lol/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/java/edu/nf/lol/adminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/java/edu/nf/lol/vo/ResponseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/components.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/custom.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/reverse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/skins/reverse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/skins/reverse.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-600.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-600.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-600.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-600.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-800.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-800.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-800.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-800.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-800.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/nunito-v9-latin-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Black-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Bold-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Light-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Medium-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits-Without-Latin/Vazir-Thin-FD-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Black-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Black-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Black-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Black-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Bold-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Light-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Light-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Light-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Light-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Medium-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Medium-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Medium-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Medium-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Thin-FD.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Thin-FD.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Thin-FD.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Farsi-Digits/Vazir-Thin-FD.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Thin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Vazir.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Black-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Black-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Black-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Black-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Bold-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Bold-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Bold-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Bold-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Light-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Light-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Light-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Light-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Medium-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Medium-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Medium-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Medium-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Thin-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Thin-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Thin-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-Thin-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-WOL.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-WOL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-WOL.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/Without-Latin/Vazir-WOL.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/font-face.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/fonts/vazir/sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/ImagesByMarkSebastian.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/images/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/avatar/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/avatar/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/avatar/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/avatar/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/avatar/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/drawkit/drawkit-full-stack-man-colour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/drawkit/drawkit-mobile-article-colour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/drawkit/drawkit-nature-man-colour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/drawkit/revenue-graph-colour.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/example-image-50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/example-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/news/img17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/p-250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/p-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-1-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-2-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-3-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-4-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-5-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/products/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/stisla-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/stisla-light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/stisla-transparent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/stisla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/unsplash/72878888_p0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/unsplash/andre-benz-1214056-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/unsplash/eberhard-grossgasteiger-1207565-unsplash.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/unsplash/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/img/unsplash/login-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/jquery.nicescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/auth-register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/bootstrap-modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/components-chat-box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/components-multiple-upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/components-statistic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/components-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/components-user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/features-post-create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/features-posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/features-setting-detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/forms-advanced-forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-advanced-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-draggable-marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-geocoding.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-geolocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-multiple-marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/gmaps-simple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/index-0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-chartjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-ion-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-sweetalert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/modules-vector-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/page/utilities-contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-badge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-breadcrumb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-list-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-media-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/bootstrap-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/components-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/components-multiple-upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/components-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/components-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/index-0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/layout-default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/layout-top-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/dev/rtl/layout-transparent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/auth-forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/auth-login-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/auth-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/auth-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/auth-reset-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-badge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-breadcrumb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-list-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-media-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/bootstrap-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-chat-box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-empty-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-multiple-upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-statistic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/components-wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/credits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/errors-403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/errors-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/errors-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/errors-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-activities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-post-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-setting-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/features-tickets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/forms-advanced-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/forms-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/forms-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-advanced-route.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-draggable-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-geocoding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-geolocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-multiple-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-route.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/gmaps-simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/index-0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/layout-default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/layout-top-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/layout-transparent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-datatables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-flag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-font-awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-ion-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-owl-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-sweet-alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-toastr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-vector-map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/modules-weather-icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/utilities-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/utilities-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/pages/utilities-subscribe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/ai/placeholder-avatar.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/ai/placeholder-product.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/ai/placeholder.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/auth-forgot-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/auth-login-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/auth-login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/auth-register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/auth-reset-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/blank.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-badge.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-breadcrumb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-list-group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-media-object.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-popover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-tooltip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/bootstrap-typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-avatar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-chat-box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-empty-state.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-hero.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-multiple-upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-pricing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-statistic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/components-wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/credits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/errors-403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/errors-404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/errors-500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/errors-503.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-activities.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-post-create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-setting-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/features-tickets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/forms-advanced-form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/forms-editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/forms-validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-advanced-route.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-draggable-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-geocoding.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-geolocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-multiple-marker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-route.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/gmaps-simple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/index-0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layout-default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layout-top-navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layout-transparent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layouts/master-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layouts/master-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layouts/master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/layouts/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-datatables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-flag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-font-awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-ion-icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-owl-carousel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-sparkline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-sweet-alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-toastr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-vector-map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/modules-weather-icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/utilities-contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/utilities-invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/pages/utilities-subscribe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/_mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/_variable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_activities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_article.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_author.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_avataritem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_browser.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_chat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_chocolat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_customtab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_datatables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_daterangepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_dropzone.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_empty_state.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_flagicon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_imagepreview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_invoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_ionicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_jqvmap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_owlcarousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_product.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_pwstrength.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_select2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_selectric.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_sparkline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_statistics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_summary.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_summernote.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_sweetalert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_tagsinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_ticket.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_timepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_toast.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_useritem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_weather.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_weathericon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/components/_wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_progressbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/override/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/skins/reverse.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/theme/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/theme/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/theme/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/theme/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/sources/scss/theme/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-admin/src/main/resources/static/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-api/lol-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-dao/lol-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-dao/lol-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/lol-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/lol-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-service/lol-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-service/lol-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-util/lol-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-util/lol-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-web/lol-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/lol-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\jar\repo" />
+        <option name="mavenHome" value="E:/jar/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\jar\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YnebzZ8p7GCvZ6tV2yQj0rxebn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lol-admin/src/main/resources/static" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaprojects\lolShop\lol-admin\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.nf.lol.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaprojects\lolShop\lol-admin\src\main\resources\static" />
+      <recent name="E:\ideaprojects\lolShop\lol-admin\src\main\java\edu\nf\lol" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="lolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lol-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.nf.lol.lolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ca0ccff-833f-43de-ae96-1e640ec8b7e2" name="Default Changelist" comment="" />
+      <created>1583582860262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583582860262</updated>
+      <workItem from="1583582863992" duration="2184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583584565945">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="690" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1583584565945" />
+    <state x="740" y="301" key="FileChooserDialogImpl" timestamp="1583583069542">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="740" y="301" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1583583069542" />
+    <state x="461" y="202" key="SettingsEditor" timestamp="1583583048716">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="461" y="202" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1583583048716" />
+    <state x="334" y="255" key="new project wizard" timestamp="1583583143364">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="334" y="255" key="new project wizard/0.40.1920.1040@0.40.1920.1040" timestamp="1583583143364" />
+  </component>
+</project>

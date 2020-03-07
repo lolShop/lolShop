@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lol-service" />
+        <module name="lol-dao" />
+        <module name="lol-admin" />
+        <module name="lol-entity" />
+        <module name="lol-web" />
+        <module name="lol-api" />
+        <module name="lol-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lol" target="1.8" />
+      <module name="lol-admin" target="1.8" />
+      <module name="lol-api" target="1.8" />
+      <module name="lol-dao" target="1.8" />
+      <module name="lol-entity" target="1.8" />
+      <module name="lol-service" target="1.8" />
+      <module name="lol-util" target="1.8" />
+      <module name="lol-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lol-admin" options="-parameters" />
+      <module name="lol-api" options="-parameters" />
+      <module name="lol-dao" options="-parameters" />
+      <module name="lol-entity" options="-parameters" />
+      <module name="lol-service" options="-parameters" />
+      <module name="lol-util" options="-parameters" />
+      <module name="lol-web" options="-parameters" />
+    </option>
+  </component>
+</project>
