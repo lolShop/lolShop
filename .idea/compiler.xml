@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="lol" target="1.8" />
+      <module name="lol-api" target="1.8" />
+      <module name="lol-dao" target="1.8" />
+      <module name="lol-entity" target="1.8" />
+      <module name="lol-service" target="1.8" />
+      <module name="lol-util" target="1.8" />
+      <module name="lol-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

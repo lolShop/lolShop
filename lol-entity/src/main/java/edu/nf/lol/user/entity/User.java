@@ -1,4 +1,4 @@
-package edu.nf.lol.user.enyity;
+package edu.nf.lol.user.entity;
 
 /**
  * @author Crazy

@@ -1,0 +1,152 @@
+
+/*个人信息*/
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.ct-userinfo{
+	margin: 8px 0 0 54px;
+}
+.ct-useritem {
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.ct-useritem .uitem-label {
+    margin-right: 35px;
+    width: 50px;
+    display: block;
+    text-indent: 12px;
+}
+.ct-useritem .uitem-info, .ct-useritem .uitem-radio {
+    height: 40px;
+}
+.ct-useritem .btn-uitem-act {
+    font-size: 16px;
+    color: #70abed;
+}
+.ct-useritem .uitem-ipt {
+    margin-right: 10px;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.ct-useritem .uitem-ipt .uitem-input {
+    width: 194px;
+    background: #fff;
+    border: none;
+    padding-left: 4px;
+    height: 38px;
+    line-height: 38px;
+    outline: none;
+    vertical-align: middle;
+}
+.ct-useritem .uitem-radiobox {
+    margin-right: 37px;
+}
+.ct-useritem .uitem-radiobox .ico-checked {
+    background-position: -593px -251px;
+}
+.ct-useritem .uitem-radiobox i {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-position: -305px -305px;
+    cursor: pointer;
+}
+.ico-center {
+    background: url(../image/ico_center.png) no-repeat;
+}
+.uitem-actbox {
+    margin: 30px 0 0 85px;
+}
+.uitem-actbox .btn-uitem-save {
+    display: block;
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #ffc933;
+    color: #333;
+    font-size: 16px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+/* 生日 */
+.ct-useritem .uitem-sel {
+    margin-right: 10px;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #eee;
+}
+.ct-useritem .uitem-sel .uitem-seled {
+    display: block;
+    width: 174px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ct-useritem .uitem-sel .uitem-botarr {
+    position: absolute;
+    top: 16px;
+    right: 9px;
+    width: 10px;
+    height: 5px;
+    background-position: -619px -275px;
+    display: block;
+}
+.ct-useritem .uitem-ylabel {
+    padding-right: 10px;
+}
+.ct-useritem .uitem-sel .uitem-toparr {
+    background-position: -619px -281px;
+}
+.ct-useritem .uitem-sel .uitem-downlist {
+    position: absolute;
+    top: 38px;
+    left: -1px;
+    width: 198px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #eee;
+    z-index: 10;
+    display: none;
+}
+.ct-useritem .uitem-year, .ct-useritem .uitem-year .uitem-seled, .ct-useritem .uitem-year .uitem-downlist {
+    width: 118px;
+}
+.ct-useritem .uitem-sel .uitem-downlist li.active, .ct-useritem .uitem-sel .uitem-downlist li:hover {
+    color: #f3bf19;
+}
+.ct-useritem .uitem-year .uitem-downlist li {
+    width: 114px;
+}
+.ct-useritem .uitem-sel .uitem-downlist li {
+    display: block;
+    width: 194px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 4px;
+}
+
+
+
+
+
