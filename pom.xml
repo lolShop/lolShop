@@ -11,6 +11,7 @@
         <module>lol-util</module>
         <module>lol-web</module>
         <module>lol-api</module>
+        <module>lol-admin</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
