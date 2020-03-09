@@ -82,6 +82,8 @@ create table collect_info(
 	pro_id int not null -- 商品ID
 )
 
+
+
 -- 评论表
 create table comment_info(
 	com_id int not null primary key, -- 评论ID

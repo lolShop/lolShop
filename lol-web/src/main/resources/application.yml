@@ -29,3 +29,7 @@ spring:
     cache: false    #页面不加载缓存，修改即时生效
   profiles:
     include: dao
+    elasticsearch:
+      rest:
+        uris: http://127.0.0.1:9200
+        connection-timeout: 2s

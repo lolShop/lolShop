@@ -1,0 +1,381 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+
+.center-cont {
+    margin-left: 20px;
+    padding: 40px;
+    width: 998px;
+    background: #fff;
+    border: solid 1px #eee;
+}
+.fl {
+    float: left;
+}
+
+.ct-tit {
+    height: 60px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.order-probox {
+    width: 100%;
+    height: auto;
+}
+
+div, p {
+    margin: 0;
+    padding: 0;
+}
+.loading {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    _display: block;
+}
+
+.loading .loadmsg {
+    display: table-cell;
+    _display: block;
+    vertical-align: middle;
+    text-align: center;
+    background: url(http://daoju.qq.com/becombine/mall/images/loading.gif) no-repeat center center;
+    padding-top: 110px;
+}
+
+.order-process {
+    width: 100%;
+    height: 90px;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+div {
+    display: block;
+}
+
+.order-process .pro-status {
+    margin: 0 26px;
+    width: 64px;
+    height: auto;
+}
+
+.order-process .pro-finish .or-submit {
+    background-position: -138px -368px;
+}
+
+.order-process .pro-status i {
+    margin-bottom: 10px;
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+
+.ico-center {
+    background: url(../image/ico_center.png) no-repeat;
+}
+
+.order-process .pro-finish .pro-name {
+    color: #f3bf19;
+}
+.order-process .pro-status .pro-name {
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.probarbox {
+    margin-top: 35px;
+    width: 180px;
+    height: 2px;
+    background: #ddd;
+    position: relative;
+}
+
+.probarbox .probar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 2px;
+    background: #f3bf19;
+}
+
+.order-process .pro-status {
+    margin: 0 26px;
+    width: 64px;
+    height: auto;
+}
+
+i {
+    font-style: italic;
+}
+
+.order-process .pro-status .or-pay {
+    background-position: -206px -368px;
+}
+
+.order-process .pro-status i {
+    margin-bottom: 10px;
+    display: block;
+    width: 64px;
+    height: 64px;
+}
+
+.order-process .pro-status {
+    margin: 0 26px;
+    width: 64px;
+    height: auto;
+}
+
+.order-process .pro-status .or-delivery {
+    background-position: -342px -368px;
+}
+
+.order-process .pro-status.mr0 {
+    margin-right: 0;
+}
+.order-process .pro-status {
+    margin: 0 26px;
+    width: 64px;
+    height: auto;
+}
+
+.order-process .pro-status .or-receipt {
+    background-position: -525px -224px;
+}
+
+.pro-infobox {
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 998px;
+    height: auto;
+    border: 1px solid #eee;
+    background: #fffdf8;
+}
+
+.pro-infobox .pro-info {
+    margin: 19px 0 0 20px;
+    height: 20px;
+    font-size: 18px;
+    color: #333;
+    line-height: 20px;
+}
+
+.pro-infobox .pro-info .ico-exmark {
+    background-position: -620px -224px;
+}
+.pro-infobox .pro-info i {
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+}
+
+.pro-infobox .pro-tips {
+    margin: 15px 0 0 50px;
+    font-size: 14px;
+    color: #999;
+    line-height: 14px;
+}
+
+.pro-infobox .pro-tips .yellow {
+    color: #f3bf19;
+}
+
+.pro-infobox .btn-pay {
+    margin: 15px 0 0 50px;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.ce-btn {
+    background: #c09756;
+    display: block;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.order-debox {
+    margin: 20px auto 0;
+    width: 998px;
+    height: auto;
+    border: 1px solid #eee;
+}
+
+.order-debox .debox-tit {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #eee;
+    text-indent: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+/*等待动图*/
+.loading .loadmsg {
+    display: table-cell;
+    _display: block;
+    vertical-align: middle;
+    text-align: center;
+    background: url(http://daoju.qq.com/becombine/mall/images/loading.gif) no-repeat center center;
+    padding-top: 110px;
+}
+
+.order-infobox {
+    padding: 8px 20px;
+    height: auto;
+}
+.orinfo-item {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #999;
+}
+
+.orinfo-item .info-label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+.orinfo-item .cr333 {
+    color: #333;
+}
+.debox-tit .wth600 {
+    display: inline-block;
+    width: 600px;
+    text-align: left;
+}
+.debox-tit span {
+    display: inline-block;
+    width: 184px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.order-goodlist {
+    width: 100%;
+    padding-bottom: 20px;
+    height: auto;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.order-goodlist li {
+    margin-top: 20px;
+    width: 100%;
+    height: 110px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.order-goodlist li .or-goodinfo {
+    width: 608px;
+}
+.order-goodlist .or-goodimg {
+    margin-left: 20px;
+    width: 113px;
+    height: 108px;
+    border: 1px solid #eee;
+    position: relative;
+}
+
+.order-goodlist .or-gooddet {
+    margin-left: 8px;
+}
+.order-goodlist .or-goodname {
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+}
+
+.order-goodlist .or-goodcolor {
+    padding-top: 6px;
+    color: #999;
+    line-height: 16px;
+}
+
+.or-gooddet p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f5f5f5;
+    min-width: 1280px;
+    font: 14px/30px Microsoft YaHei;
+}
+
+.order-goodlist li .or-goodpri, .order-goodlist li .or-goodnum {
+    margin-top: 40px;
+    width: 184px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.order-sum {
+    width: 958px;
+    padding: 7px 40px 10px 0;
+    height: 118px;
+    border: 1px solid #eee;
+    background: #fafafa;
+    border-top: none;
+}
+.order-sumitem {
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+}
+
+.order-sumitem .cr33 {
+    display: inline-block;
+    width: 115px;
+    color: #333;
+}
+
+
+

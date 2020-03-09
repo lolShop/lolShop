@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="bootstrap-3.0.0/dist/css/bootstrap.min.css">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="bootstrap-3.0.0/dist/css/bootstrap-theme.min.css">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="bootstrap-3.0.0/dist/js/bootstrap.min.js"></script>
+		        
+				<meta charset="utf-8" />
+				
+
+		<title></title>
+		<link rel="stylesheet" href="css/comm.css">
+		<link rel="stylesheet" href="css/prodlist.css">
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/common.css">
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<link rel="stylesheet" href="css/iconfont.css">
+
+
+	</head>
+	
+	<body>
+	<div class="top-bar">
+		<!-- top-bar占位 -->
+		<div class="top-blank"></div>
+		<div class="top-action">
+			<!-- top-info S -->
+			<div class="top-info">
+				<div class="mid clearfix">
+					<a href="" target="_blank"><div class="fl ico-comm i-jcp">爱联盟</div></a>
+					<div class="fl ico-comm i-solgan">因为热爱，所以联盟</div>
+					<a href="buy.html" class="fr cartbox clearfix" target="_blank">
+						<i class="fl ico-comm i-cart"></i>
+						<span>购物车</span>
+						<div class="fr cart-num">0</div>
+					</a>
+					<div class="fr loginbar">
+						<!-- 登录前 S-->
+						<div class="unlogin">
+							<i class="ico-comm i-person"></i>
+							<a href="javascript:;" title="立即登录">立即登录</a>
+						</div>
+						<!-- 登录前 E-->
+						<!-- 登录后 S-->
+						<div class="loginbox clearfix" style="display: none;">
+							<div class="login-info">
+								<div class="fl hdimg">
+									<img src="" width="38" height="38" alt="头像">
+								</div>
+								<p class="fl hdname"></p>
+							</div>
+							<div class="top-hover">
+								<div class="arrow"></div>
+								<div class="link-list">
+									<a href="myorder-lol.html" title="订单管理" target="_blank">
+										<i class="fl ico-comm i-order"></i>
+										<span>订单管理</span>
+									</a>
+									<a href="address.html" title="地址管理" target="_blank">
+										<i class="fl ico-comm i-addr"></i>
+										<span>地址管理</span>
+									</a>
+									<a href="coupon-lol.html" title="优惠卡券" target="_blank">
+										<i class="fl ico-comm i-quan"></i>
+										<span>优惠卡券</span>
+									</a>
+									<a href="collect-lol.html" title="我的收藏" target="_blank">
+										<i class="fl ico-comm i-collect"></i>
+										<span>我的收藏</span>
+									</a>
+									<a href="sub-lol.html" title="订阅管理" target="_blank">
+										<i class="fl ico-comm i-subs"></i>
+										<span>订阅管理</span>
+									</a>
+									<a href="receive-lol.html" title="领取中心" target="_blank">
+										<i class="fl ico-comm i-lqcen"></i>
+										<span>领取中心</span>
+									</a>
+									<a href="javascript:;" class="quit-link" title="退出登录">
+										<i class="fl ico-comm i-quit"></i>
+										<span>退出登录</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- 登录后 E-->
+					</div>
+					<div class="fr sosobox clearfix">
+						<a href="javascript:;" class="ico-comm i-search" title="搜索">搜索</a>
+						<input class="top-soso" placeholder="请输入想要找的宝贝">
+					</div>
+				</div>
+			</div>
+			<!-- top-info E -->
+			<!-- top-head S -->
+			<div class="top-head top-lol">
+				<div class="top-menu">
+					<div class="mid clearfix">
+						<ul class="fl menulist clearfix" id="blk_header_navbar">                          <li class="cur">
+							<!-- <a href="//mall.qq.com/lol/" class="ico-comm" title="首页"                            >首页</a> -->
+							<a href="//mall.qq.com/lol/" class="ico-comm" title="首页" target="_blank">首页</a>
+						</li>
+							<li class="cur">
+								<!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=101" class="ico-comm" title="雕塑手办"                            >雕塑手办</a> -->
+								<a href="https://mall.qq.com/lol/productlist.shtml?catid=101" class="ico-comm" title="雕塑手办" target="_blank">雕塑手办</a>
+							</li>
+							<li class="cur">
+								<!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=119" class="ico-comm" title="毛绒玩偶"                            >毛绒玩偶</a> -->
+								<a href="https://mall.qq.com/lol/productlist.shtml?catid=119" class="ico-comm" title="毛绒玩偶" target="_blank">毛绒玩偶</a>
+							</li>
+							<li class="cur">
+								<!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=120" class="ico-comm" title="周边服饰"                            >周边服饰</a> -->
+								<a href="https://mall.qq.com/lol/productlist.shtml?catid=120" class="ico-comm" title="周边服饰" target="_blank">周边服饰</a>
+							</li>
+							<li class="cur">
+								<!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=117" class="ico-comm" title="官方海报"                            >官方海报</a> -->
+								<a href="https://mall.qq.com/lol/productlist.shtml?catid=117" class="ico-comm" title="官方海报" target="_blank">官方海报</a>
+							</li>
+							<li class="cur">
+								<!-- <a href="https://mall.qq.com/lol/productlist.shtml?catid=215" class="ico-comm" title="LPL周边"                            >LPL周边</a> -->
+								<a href="https://mall.qq.com/lol/productlist.shtml?catid=215" class="ico-comm" title="LPL周边" target="_blank">LPL周边</a>
+							</li>
+						</ul>
+						<a href="/lol/productlist.shtml" class="fr all-class" title="全部商品分类" target="_blank">
+							<span>全部商品分类</span>
+							<i class="ico-comm i-arrbot"></i><!-- 点击添加i-arrtop -->
+						</a>
+					</div>
+				</div>
+				<!-- 子菜单 -->
+				<div class="top-submenu" style="display: none;">
+					<div class="mid clearfix">
+						<ul class="submenu-ul" id="blk_header_submenu">                         <li class="submenu-li">
+							<a class="class-name" href="/lol/productlist.shtml?catid=101" target="_blank">
+								<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145105_88040.png" alt="图标" width="30">
+								<p>雕塑手办</p>
+							</a>
+							<ul class="class-list">
+								<li><a href="/lol/productlist.shtml?catid=121" target="_blank">大型雕塑</a></li>
+								<li><a href="/lol/productlist.shtml?catid=122" target="_blank">中型雕塑</a></li>
+								<li><a href="/lol/productlist.shtml?catid=209" target="_blank">手办</a></li>
+								<li><a href="/lol/productlist.shtml?catid=208" target="_blank">限定手办</a></li>
+								<li><a href="/lol/productlist.shtml?catid=676" target="_blank">迷你手办</a></li>
+							</ul>
+						</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=119" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145058_70222.png" alt="图标" width="30">
+									<p>毛绒玩偶</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=126" target="_blank">帽子</a></li>
+									<li><a href="/lol/productlist.shtml?catid=125" target="_blank">玩偶</a></li>
+								</ul>
+							</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=120" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145046_11520.png" alt="图标" width="30">
+									<p>男女服饰</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=668" target="_blank">其他</a></li>
+									<li><a href="/lol/productlist.shtml?catid=128" target="_blank">T恤</a></li>
+									<li><a href="/lol/productlist.shtml?catid=127" target="_blank">卫衣&amp;夹克</a></li>
+								</ul>
+							</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=117" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145027_24747.png" alt="图标" width="30">
+									<p>海报艺术</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=129" target="_blank">英雄海报</a></li>
+									<li><a href="/lol/productlist.shtml?catid=214" target="_blank">画册</a></li>
+								</ul>
+							</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=215" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181024161609_23161.png" alt="图标" width="30">
+									<p>LPL周边</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=434" target="_blank">LPL其他</a></li>
+									<li><a href="/lol/productlist.shtml?catid=1045" target="_blank">LPL X NIKE</a></li>
+								</ul>
+							</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=116" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181009145019_53471.png" alt="图标" width="30">
+									<p>其他</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=210" target="_blank">其他</a></li>
+									<li><a href="/lol/productlist.shtml?catid=131" target="_blank">鼠标垫</a></li>
+									<li><a href="/lol/productlist.shtml?catid=361" target="_blank">手机壳</a></li>
+								</ul>
+							</li>
+							<li class="submenu-li">
+								<a class="class-name" href="/lol/productlist.shtml?catid=665" target="_blank">
+									<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201810/20181024161530_16295.png" alt="图标" width="30">
+									<p>珠宝首饰</p>
+								</a>
+								<ul class="class-list">
+									<li><a href="/lol/productlist.shtml?catid=666" target="_blank">幸运珠</a></li>
+									<li><a href="/lol/productlist.shtml?catid=669" target="_blank">吊坠</a></li>
+									<li><a href="/lol/productlist.shtml?catid=670" target="_blank">手链</a></li>
+									<li><a href="/lol/productlist.shtml?catid=667" target="_blank">配件</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- top-head E -->
+		</div>
+	</div>
+	<script src="js/jquery-min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- footer E -->
+	
+	<!--毛绒玩具-->
+		<div class="mid">
+			<div class="breadcrumb" id="blk_productlist_crumbs">        <span><a href="index.shtml" target="_blank" class="ibcb-first" style="margin-right:0px;">首页&gt;</a></span>
+				<span>
+					<a href="javascript:;" style="margin-right:0px;cursor:default;text-decoration: none; color:#999">毛绒玩偶</a>
+				</span>
+			</div>
+
+			<!-- pro-list S -->
+			<div class="page-main">
+				<!-- 条件过滤 -->
+				<div class="list-filter">
+										<div id="showclass" class="fltbox clearfix">
+						<dl id="dj_class_ul">                <dt>分类：</dt>
+						<dd class="all" type="all" val="1">全部</dd>
+						 <dd class="" type="cat" val="101">雕塑手办</dd>
+						  <dd class="" type="cat" val="116">其他</dd>
+						  <dd class="" type="cat" val="117">海报艺术</dd>
+						  <dd class="cur" type="cat" val="119">毛绒玩偶</dd>
+						  <dd class="" type="cat" val="120">男女服饰</dd>
+												  <dd class="" type="cat" val="215">LPL周边</dd>
+							  <dd class="" type="cat" val="665">珠宝首饰</dd>
+					   </dl>
+					</div>
+				
+					<div class="fltbox sort-filter clearfix">
+						<dl class="sortdl fl">
+							<dt>排序：</dt>
+							<dd class="cur" type="sort" val="iRecRank" sort="desc">默认</dd>
+							<dd class="flt-arrow" type="sort" val="iPrice">
+								<span>价格</span>
+								<i class="ico-comm i-arrgray"></i><!-- 默认全灰点击下面变黑色添加i-arrbbot在点击上面变黑色i-arrbtop-->
+							</dd>
+							<dd class="flt-arrow" type="sort" val="dtShowBegin">
+								<span>新品</span>
+								<i class="ico-comm i-arrgray"></i><!-- 默认全灰点击下面变黑色添加i-arrbbot在点击上面变黑色i-arrbtop-->
+							</dd>
+							<dd class="flt-arrow" type="sort" val="iFavNum">
+								<span>人气</span>
+								<i class="ico-comm i-arrgray"></i><!-- 默认全灰点击下面变黑色添加i-arrbbot在点击上面变黑色i-arrbtop-->
+							</dd>
+							<dd class="flt-arrow" type="sort" val="iSoldNum">
+								<span>销量</span>
+								<i class="ico-comm i-arrgray"></i><!-- 默认全灰点击下面变黑色添加i-arrbbot在点击上面变黑色i-arrbtop-->
+							</dd>
+						</dl>
+						<dl class="sortdl fr">
+							<dt>筛选：</dt>
+							<dd class="flt-check" type="screen" val="2">
+								<i class="ico-comm i-check"></i><!-- 点击添加i-checked-->
+								<span>有货</span>
+							</dd>
+							<dd class="flt-check" type="screen" val="1">
+								<i class="ico-comm i-check"></i><!-- 点击添加i-checked-->
+								<span>包邮</span>
+							</dd>
+							<dd class="flt-check" type="screen" val="3">
+								<i class="ico-comm i-check"></i><!-- 点击添加i-checked-->
+								<span>聚豆可抵</span>
+							</dd>
+						</dl>
+					</div>
+				</div>
+
+				<div class="good-list">
+					<div id="dj1" style="display: none">
+						<div class="pro-none">
+							暂时没有商品呢，去首页看看吧
+						</div>
+					</div>
+				<ul class="clearfix" id="dj_goods_ul">
+				<li>
+						<div class="ico-comm i-mark">
+							<span class="mark-txt">限定新品</span>
+						</div>
+					<a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">限定新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191231215859_17938.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">新年提伯斯熊毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥180.00</span> 
+							<span class="old-pri">￥180.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/202001/20200102110657_67912.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">新春系列 提伯斯毛绒挂件盲盒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥59.00</span> 
+							<span class="old-pri">￥59.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191209213142_61015.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">阿利斯塔收藏款毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥108.00</span> 
+							<span class="old-pri">￥108.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191209214132_62920.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">布隆收藏款毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥108.00</span> 
+							<span class="old-pri">￥108.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191231200706_94245.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">提莫收藏款毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥108.00</span> 
+							<span class="old-pri">￥108.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191209210606_87235.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">小蜜蜂提莫毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥180.00</span> 
+							<span class="old-pri">￥180.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+						 <div class="ico-comm i-mark">
+							<span class="mark-txt">新品</span>
+						</div>
+				  <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-mark">
+						 <span class="mark-txt">新品</span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201912/20191209213311_10394.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">欧米伽魄罗小队 迷你毛绒套装</p>
+						<div class="good-pri">
+							<span class="new-pri">￥180.00</span> 
+							<span class="old-pri">￥180.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				 <a href="" target="_blank" class="good-link">
+					<div class="ico-comm ">
+						 <span class="mark-txt"></span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201907/20190723090944_45606.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">红方小兵收藏款毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥108.00</span> 
+							<span class="old-pri">￥108.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				 <a href="" target="_blank" class="good-link">
+					<div class="ico-comm ">
+						 <span class="mark-txt"></span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201907/20190723091018_19360.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">蓝方小兵收藏款毛绒</p>
+						<div class="good-pri">
+							<span class="new-pri">￥108.00</span> 
+							<span class="old-pri">￥108.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				 <a href="" target="_blank" class="good-link">
+					<div class="ico-comm ">
+						 <span class="mark-txt"></span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201710/20171027173947_93588.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">提莫帽子</p>
+						<div class="good-pri">
+							<span class="new-pri">￥120.00</span> 
+							<span class="old-pri">￥120.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				 <a href="" target="_blank" class="good-link">
+					<div class="ico-comm ">
+						 <span class="mark-txt"></span>
+					 </div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201806/20180606152447_91347.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">超大版提伯斯毛绒玩偶</p>
+						<div class="good-pri">
+							<span class="new-pri">￥920.00</span> 
+							<span class="old-pri">￥920.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				 <a href="" target="_blank" class="good-link">
+					<div class="ico-comm i-out">
+						 <span class="mark-txt">缺货</span>
+					 </div>
+					<div class="out-zzc"></div>
+					 <img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201707/20170713170956_81861.jpg" width="280" height="268" alt="商品图">
+					<div class="good-info">
+						<p class="good-name">提伯斯颈枕</p>
+						<div class="good-pri">
+							<span class="new-pri">￥102.00</span> 
+							<span class="old-pri">￥120.00</span>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+					<!-- 分页按钮  -->
+					<div class="page pagesmar pagewth" id="page_wrapper"><span class="p_prev"><a href="?page_no=1&amp;page_size=12"><i class="ico-center ico-arrleft"></i></a></span><span class="page_btn active"><a page="1" href="?page_no=1&amp;page_size=12">1</a></span><span class="page_btn"><a page="2" href="?page_no=2&amp;page_size=12">2</a></span><span class="page_btn"><a page="3" href="?page_no=3&amp;page_size=12">3</a></span><span class="page_btn"><a page="4" href="?page_no=4&amp;page_size=12">4</a></span><span class="p_next"><a href="?page_no=11&amp;page_size=12"><i class="ico-center ico-arrright"></i></a></span></div>
+				</div>
+			</div>
+		</div>
+		
+	<!--通用购物导航栏-->
+	<div class="fixednav" id="blk_footer_tool">
+		<a class="fixedlink myorder" title="我的订单" href="/myorder.shtml?busid=lol" target="_blank">
+			<i class="comicon navico-order"></i>
+			<span>我的<br>订单</span>
+		</a>
+		<a class="fixedlink myaddress" title="我的地址" href="#" target="_blank">
+			<i class="comicon navico-address"></i>
+			<span>我的<br>地址</span>
+		</a>
+		<a class="fixedlink mycart" title="我的购物车" href="#" target="_blank">
+			<i class="comicon navico-cart"></i>
+			<span>购<br>物<br>车</span>
+			<i class="comicon navico-cartnum">0</i>
+		</a>
+		
+			<a id="onlineService1" class="fixedlink myservice" target="_blank" title="咨询">
+			<i class="comicon navico-service"></i>
+			<span>咨询</span>
+		</a>
+			
+	</div>
+<div class="topnav" style="display: block;">
+    <a href="#top"><i class="comicon btn-top"></i></a>
+</div>
+
+<!--底部帮助栏-->
+
+	<script src="image/js/report.js"></script>
+	<div class="footer">
+		<div class="mid clearfix">
+			<a href="index1.html" target="_bank" class="footer-djc" title="道聚城"><img src="image/prodcutlist/djc_logo.png" width="187" alt="爱联盟"></a>
+			<ul class="footer-info fl">
+				<li><a href="help-1.html" target="_blank"><span class="ic04 in comm-top"></span>购物指南</a></li>
+				<li><a href="help-1.html" target="_blank"><span class="ic07 in comm-top"></span>配送方式</a></li>
+				<li><a href="help-1.html" target="_blank"><span class="ic05 in comm-top"></span>常见操作</a></li>
+				<li><a href="help-1.html" target="_blank"><span class="ic06 in comm-top"></span>售后服务</a></li>
+				<li><a href="help-1.html" target="_blank"><span class="ic08 in comm-top"></span>关于我们</a></li>
+			</ul>
+			<ul class="footer-code fl">
+				<li>
+					<img src="image/prodcutlist/jcp_gzh.jpg" width="100" height="100" alt="爱联盟公众号">
+					<p>爱联盟公众号</p>
+				</li>
+				<li>
+					<img src="image/prodcutlist/djc_gzh.jpg" width="100" height="100" alt="爱联盟公众号">
+					<p>爱联盟公众号</p>
+				</li>
+				<li class="pr0">
+					<img src="image/prodcutlist/djc_app.png" width="100" height="100" alt="爱联盟道聚城">
+					<p>爱联盟道聚城</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</body>
+	</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <script src="js/jquery-min.js"></script>
+    <link rel="stylesheet" href="css/shoppingCart.css">
+    <link rel="stylesheet" href="css/index.css" >
+    <script src="frame/bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="frame/bootstrap-4.3.1-dist/css/bootstrap.css">
+</head>
+<body>
+<!-- 导航栏 -->
+<div class="top">
+</div>
+
+<div class="wrap">
+
+    <!-- 主体内容 -->
+    <div class="mainwrap">
+
+    <div class="mycart" id="blk_cart_list">
+
+        <!-- 表头标题 -->
+        <div class="mycart-th clearfix">
+            <div class="fl sp-1">&nbsp;
+                <!--<span class="input-check"><i></i></span>-->
+            </div>
+            <p class="fl sp-2">&nbsp;
+                <!--全选-->
+            </p>
+            <p class="fl sp-3">
+                商品信息
+            </p>
+            <p class="fl sp-4">
+                &nbsp;
+            </p>
+            <p class="fl sp-5">
+                单价（元）
+            </p>
+            <p class="fl sp-6">
+                数量
+            </p>
+            <p class="fl sp-7">
+                金额（元）
+            </p>
+            <p class="fl sp-8">
+                操作
+            </p>
+        </div>
+
+        <!-- 购物车商品栏 -->
+        <div class="mycart-pack cartbox checked">
+
+            <div class="mycart-shop">
+
+                <span id="ck-all" class="input-check"></span>
+                <p class="mycart-shop-t">全选</p>
+                <span class="mycart-shop-coupon coupon-link" style="display: none;float: right;margin-right: 50px">领取优惠券</span>
+
+            </div>
+
+            <div class="mycart-list">
+
+                <!-- 列表项 -->
+                <div class="mycart-item">
+                    <div class="fli spi-1">
+                        <span class="goodscheck input-check"><i></i></span>
+                    </div>
+                    <div class="fli spi-2">
+                        <div class="mycart-item-img">
+                            <img src="image/shoppingCartImage/20190428104310_28156.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="fli spi-3">
+                        <p class="mycart-item-name">
+                            <a>CF手办模型-刀锋+白狼套装</a>
+                        </p>
+                        <p class="mycart-item-em">赠品：主题收集-白狼手办*1、主题收集-刀锋手办*1 </p>
+                    </div>
+                    <div class="fli spi-4">
+                        <div class="mycart-item-sel disabled">
+                            <p>款式：刀锋+白狼套装</p>
+                            <!--<i>修改</i>-->
+                        </div>
+                    </div>
+                    <div class="fli spi-5">
+                        <p class="mycart-item-per">
+                            <s>109.00 元</s><br/>
+                            109.00 元
+                        </p>
+                    </div>
+                    <div class="fli spi-6">
+                        <div class="mycart-item-count">
+                            <span class="num-minus btn_cart_list_buy_min">-</span>
+                            <input type="text" class="inpt_cart_list_buy_num" value="1" oninput="value=value.replace(/[^\d]/g,'')">
+                            <span class="num-plus btn_cart_list_buy_plus">+</span>
+                        </div>
+                    </div>
+                    <div class="fli spi-7">
+                        <p class="mycart-item-price">
+                            199.00 元
+                        </p>
+                    </div>
+                    <div class="fli spi-8">
+                        <div class="mycart-item-tg">
+                            <a class="btn-del" href="javascript:;">删除</a>
+                            <a class="btn-fav" href="javascript:;">移入收藏夹</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="mycart-item">
+                    <div class="fli spi-1">
+                        <span class="goodscheck input-check"><i></i></span>
+                    </div>
+                    <div class="fli spi-2">
+                        <div class="mycart-item-img">
+                            <img src="image/shoppingCartImage/20190428104310_28156.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="fli spi-3">
+                        <p class="mycart-item-name">
+                            <a>CF手办模型-刀锋+白狼套装</a>
+                        </p>
+                        <p class="mycart-item-em">赠品：主题收集-白狼手办*1、主题收集-刀锋手办*1 </p>
+                    </div>
+                    <div class="fli spi-4">
+                        <div class="mycart-item-sel disabled">
+                            <p>款式：刀锋+白狼套装</p>
+                            <!--<i>修改</i>-->
+                        </div>
+                    </div>
+                    <div class="fli spi-5">
+                        <p class="mycart-item-per">
+                            <s>109.00 元</s><br/>
+                            109.00 元
+                        </p>
+                    </div>
+                    <div class="fli spi-6">
+                        <div class="mycart-item-count">
+                            <span class="num-minus btn_cart_list_buy_min">-</span>
+                            <input type="text" class="inpt_cart_list_buy_num" value="1" oninput="value=value.replace(/[^\d]/g,'')">
+                            <span class="num-plus btn_cart_list_buy_plus">+</span>
+                        </div>
+                    </div>
+                    <div class="fli spi-7">
+                        <p class="mycart-item-price">
+                            199.00 元
+                        </p>
+                    </div>
+                    <div class="fli spi-8">
+                        <div class="mycart-item-tg">
+                            <a class="btn-del" href="javascript:;">删除</a>
+                            <a class="btn-fav" href="javascript:;">移入收藏夹</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <!-- 商品列表结束 -->
+
+            <!-- 结算栏 -->
+            <div class="mycart-tb clearfix">
+                <div class="mycart-tb-tg">
+                    <!--<span class="input-check"><i></i></span>-->
+                    <!--<span>全选</span>-->
+                    <!--<a href="javascript:;">删除选中商品</a>-->
+                    <!--<a href="javascript:;">清除失效商品</a>-->
+                </div>
+                <div class="mycart-tb-info" style="margin: 6px 180px 0 0;">
+                    <p>已选商品 <b class="total">2</b> 件&nbsp;&nbsp;总价：<b class="money">327.00 元</b></p>
+                    <p class="b">不含运费和其他优惠</p>
+                </div>
+                <a class="mycart-tb-btn" cnt="2">去结算</a>
+                <!--<a class="mycart-tb-btn disable" href="#">去结算</a>-->
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- 为你推荐 -->
+    <div class="myrecomm">
+        <h2 class="myrecomm-tit">为你推荐</h2>
+        <ul id="blk_cart_recommend" class="myrecomm-list clearfix">
+            <li>
+            <div class="myrecomm-pic">
+                <a href="/cf/detail.shtml?id=3977" target="_blank">
+                    <img width="246" height="236" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181225100938_70500.jpg" alt="">
+                </a>
+            </div>
+            <div class="myrecomm-box">
+                <p>CF年轻不服输U盘三合一</p>
+                <b>169.00 元</b><s>169.00 元</s>
+                <!--<a href="javascript:;"><i class="comicon"></i>加入购物车</a>-->
+            </div>
+        </li>
+            <li>
+                <div class="myrecomm-pic">
+                    <a href="/cf/detail.shtml?id=4947" target="_blank">
+                        <img width="246" height="236" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181225101525_32891.jpg" alt="">
+                    </a>
+                </div>
+                <div class="myrecomm-box">
+                    <p>CF穿越火线防盗单肩包</p>
+                    <b>89.00 元</b><s>99.00 元</s>
+                    <!--<a href="javascript:;"><i class="comicon"></i>加入购物车</a>-->
+                </div>
+            </li>
+            <li>
+                <div class="myrecomm-pic">
+                    <a href="/cf/detail.shtml?id=4004" target="_blank">
+                        <img width="246" height="236" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201812/20181225104523_86284.jpg" alt="">
+                    </a>
+                </div>
+                <div class="myrecomm-box">
+                    <p>CF集线数据线三合一-黑侠</p>
+                    <b>69.00 元</b><s>69.00 元</s>
+                    <!--<a href="javascript:;"><i class="comicon"></i>加入购物车</a>-->
+                </div>
+            </li>
+            <li>
+                <div class="myrecomm-pic">
+                    <a href="/cf/detail.shtml?id=11503" target="_blank">
+                        <img width="246" height="236" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201909/20190912192721_88980.jpg" alt="">
+                    </a>
+                </div>
+                <div class="myrecomm-box">
+                    <p>灵狐者Q版手办-潜伏者【全款预售】</p>
+                    <b>70.00 元</b><s>70.00 元</s>
+                    <!--<a href="javascript:;"><i class="comicon"></i>加入购物车</a>-->
+                </div>
+            </li>
+            <li>
+                <div class="myrecomm-pic">
+                    <a href="/cf/detail.shtml?id=8799" target="_blank">
+                        <img width="246" height="236" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201904/20190404165329_84700.jpg" alt="">
+                    </a>
+                </div>
+                <div class="myrecomm-box">
+                    <p>CF穿越火线轻便斜跨小胸包</p>
+                    <b>69.00 元</b><s>69.00 元</s>
+                    <!--<a href="javascript:;"><i class="comicon"></i>加入购物车</a>-->
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!--网页尾部分 -->
+<div class="bottom"></div>
+
+<script src="js/common.js"></script>
+<script src="js/index.js" type="text/javascript"></script>
+<script>
+    //全选/取消
+    $("#ck-all").on("click", function () {
+        $(".input-check").each(function (index, obj) {
+
+            if(index == 0){
+                $(this).toggleClass("checked")
+            }else{
+                if($("#ck-all").is(".checked")){
+                    $(this).addClass("checked")
+                }else{
+                    $(this).removeClass("checked")
+                }
+            }
+        })
+    })
+
+    //判断是否全选
+    const ifCheckAll = function () {
+        var ica = true;
+        $(".goodscheck").each(function (index, obj) {
+            if (!$(this).is(".checked")) {
+                $("#ck-all").removeClass("checked")
+                ica = false;
+            }
+        })
+        return ica;
+    };
+
+    //单选/取消
+    $(".goodscheck").on("click", function () {
+        $(this).toggleClass("checked")
+        if(ifCheckAll()){
+            $("#ck-all").addClass("checked")
+        }else{
+            $("#ck-all").removeClass("checked")
+        }
+    })
+
+
+    //数量加减
+    //减
+   $(".btn_cart_list_buy_min").on('click',function () {
+        var i =  parseInt($(this).parent().find(".inpt_cart_list_buy_num").prop('value'))-1
+       if(i>=1){
+           $(this).parent().find(".inpt_cart_list_buy_num").prop('value', i)
+       }
+
+    })
+    //加
+    $(".btn_cart_list_buy_plus").on('click',function () {
+        var i =  parseInt($(this).parent().find(".inpt_cart_list_buy_num").prop('value'))+1
+        $(this).parent().find(".inpt_cart_list_buy_num").prop('value', i)
+    })
+
+    //导入导航栏和底部样式
+    $(function () {
+
+        $.get("top.html", function (data) {
+            $(".top").html(data);
+        });
+        $.get("bottom.html", function (data) {
+            $(".bottom").html(data);
+        });
+    })
+
+
+</script>
+</body>
+</html>
