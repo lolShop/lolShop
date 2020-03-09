@@ -57,7 +57,6 @@ $(function(){
 		data:{"productId":"1"},
 		success:function (result) {
 			alert(result.data.productName)
-			alert(result.data.productId);
 		}
 	})
 })

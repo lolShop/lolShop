@@ -1,62 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="1c226e1a-cce2-410a-935a-b42b11281c8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/sql/lol数据库建表.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-dao/src/main/java/edu/nf/lol/product/dao/ProductDetailDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-dao/src/main/resources/mapper/product/ProductDetailMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-dao/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/user/enyity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/main/java/edu/nf/lol/exception/LolException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/main/java/edu/nf/lol/product/service/ProductDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/main/java/edu/nf/lol/product/service/impl/ProductDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/test/java/edu/nf/lol/service/test/product/ProductDetailTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-service/src/test/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-util/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/advice/ControllerAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/product/controller/ProductDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/vo/ResponseVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/resources/rebel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/test/java/edu/nf/lol/controller/test/product/ProductDetailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/ProductAttributeKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/ProductAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/ProductImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/ProductSpecs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/ProductType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-dao/src/main/resources/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-dao/src/main/resources/application-dao.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-dao/target/classes/application-dao.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-dao/target/classes/application-dao.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-entity/lol-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/lol-entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-util/lol-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-util/lol-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/product/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/user/enyity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/src/main/java/edu/nf/lol/user/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/target/classes/edu/nf/lol/product/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/target/classes/edu/nf/lol/product/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/target/classes/edu/nf/lol/user/enyity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-service/target/classes/META-INF/lol-service.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/lolApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/lolApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/js/detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/target/classes/edu/nf/lol/lolApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/edu/nf/lol/lolApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/target/classes/static/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/static/js/detail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-=======
-    <list default="true" id="1c226e1a-cce2-410a-935a-b42b11281c8c" name="Default Changelist" comment="爱联盟 1.1版本&#10;             孙蒋波整合商品页面">
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/djc_app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/djc_gzh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/djc_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/jcp_gzh.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/css/orderplace.css" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/css/orderplace.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/20200102110657_67912.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/20200102110657_67912.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/dz_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/dz_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/dz_bg_on.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/dz_bg_on.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/g-b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/g-b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/ico_center.png" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/ico_center.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/tx-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/tx-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/zj-icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace/zj-icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/orderplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/orderplace.html" afterDir="false" />
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,10 +114,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
-    <property name="project.structure.last.edited" value="Modules" />
-=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lol-web/src/main/resources/static/image/orderplace" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -163,7 +122,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20136519" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -173,7 +131,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
       <recent name="F:\lol\lol-service\src\main\resources" />
       <recent name="F:\lol\lol-service\src\test\resources" />
       <recent name="F:\lol\lol-dao\src\main\resources\mapper" />
@@ -189,7 +146,6 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\lol\lol-dao\src\main\resources\mapper\product" />
-=======
       <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\image\orderplace" />
       <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\image" />
       <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\css" />
@@ -198,7 +154,6 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\s3s152\lol\lol-web\src\main\resources\static" />
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
       <recent name="F:\lol\lol-web\src\main\resources\static\img\index" />
       <recent name="F:\lol\lol-web\src\main\resources\static\image\index" />
       <recent name="F:\lol\doc" />
@@ -303,17 +258,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@279da042" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -336,7 +281,6 @@
       <workItem from="1583198162585" duration="966000" />
       <workItem from="1583204221340" duration="989000" />
       <workItem from="1583218778770" duration="1457000" />
-<<<<<<< HEAD
       <workItem from="1583250380528" duration="1711000" />
       <workItem from="1583288931396" duration="4043000" />
       <workItem from="1583327361748" duration="8054000" />
@@ -344,12 +288,11 @@
       <workItem from="1583399094396" duration="18398000" />
       <workItem from="1583470985579" duration="5655000" />
       <workItem from="1583500991573" duration="340000" />
-=======
       <workItem from="1583250380528" duration="1616000" />
       <workItem from="1583287201874" duration="2606000" />
       <workItem from="1583324312183" duration="7566000" />
       <workItem from="1583336213380" duration="4088000" />
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
+      <workItem from="1583716998844" duration="4331000" />
     </task>
     <task id="LOCAL-00001" summary="爱联盟 1.0版本">
       <created>1583151481711</created>
@@ -365,16 +308,6 @@
       <option name="project" value="LOCAL" />
       <updated>1583160047309</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00003" summary="爱联盟 1.2版本">
-      <created>1583252038199</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583252038199</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
-=======
     <task id="LOCAL-00003" summary="爱联盟 1.1版本&#10;            陈峰整合下单页面">
       <created>1583336586366</created>
       <option name="number" value="00003" />
@@ -390,7 +323,6 @@
       <updated>1583403139540</updated>
     </task>
     <option name="localTasksCounter" value="5" />
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,80 +333,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="爱联盟 1.0版本" />
     <MESSAGE value="爱联盟 1.1版本" />
-<<<<<<< HEAD
     <MESSAGE value="爱联盟 1.2版本" />
     <option name="LAST_COMMIT_MESSAGE" value="爱联盟 1.2版本" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="275" y="42" key="#Project_Structure" timestamp="1583403863475">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1583403863475" />
-    <state x="137" y="38" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583496023897">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="137" y="38" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583496023897" />
-    <state x="488" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1583494685337">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="488" y="93" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1583494685337" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1583501510819">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583501510819" />
-    <state x="442" y="113" key="FileChooserDialogImpl" timestamp="1583494416438">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="442" y="113" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583494416438" />
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.0.center" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.0.left" timestamp="1583496804053">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583496804053" />
-    <state width="1323" height="173" key="GridCell.Tab.0.right" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.1.center" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.1.left" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state width="1323" height="173" key="GridCell.Tab.1.right" timestamp="1583496804054">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583496804054" />
-    <state x="254" y="45" key="Registry" timestamp="1583496309034">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="254" y="45" key="Registry/0.0.1366.768@0.0.1366.768" timestamp="1583496309034" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1583495923039">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583495923039" />
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1583252062770">
-      <screen x="0" y="0" width="1366" height="768" />
-    </state>
-    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583252062770" />
-    <state x="414" y="174" key="git4idea.merge.GitPullDialog" timestamp="1583252045833">
-=======
-    <MESSAGE value="爱联盟 1.1版本&#10;            陈峰整合下单页面" />
-    <MESSAGE value="爱联盟 1.1版本&#10;            孙蒋波整合商品页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="爱联盟 1.1版本&#10;            孙蒋波整合商品页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="192" y="24" width="1174" height="691" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583402981610">
@@ -486,55 +346,55 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="130" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583411894142" />
-    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1583411720502">
+    <state x="243" y="0" key="CommitChangelistDialog2" timestamp="1583722805422">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583411720502" />
+    <state x="243" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583722805422" />
     <state x="183" y="128" key="FileChooserDialogImpl" timestamp="1583388468885">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583330037469" />
     <state x="183" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583388468885" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.0.bottom" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583327048155" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.0.center" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583327048155" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.0.left" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583327048154" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.0.right" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583327048155" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.1.bottom" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="215" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583288801219" />
-    <state width="1323" height="192" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.1.center" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.1.center" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="215" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583288801219" />
-    <state width="1323" height="192" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.1.left" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.1.left" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="215" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583288801219" />
-    <state width="1323" height="192" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
-    <state width="1323" height="192" key="GridCell.Tab.1.right" timestamp="1583403084485">
+    <state width="1323" height="90" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
+    <state width="1323" height="90" key="GridCell.Tab.1.right" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="1323" height="215" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583288801219" />
-    <state width="1323" height="192" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583403084485" />
+    <state width="1323" height="90" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1583336253174">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -545,7 +405,6 @@
     </state>
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583403145643" />
     <state x="414" y="174" key="git4idea.merge.GitPullDialog" timestamp="1583160052852">
->>>>>>> 4a32698ba940835423bcaf0f2be8c9e995b1df57
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="414" y="174" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1583252045833" />

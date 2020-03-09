@@ -1,0 +1,167 @@
+
+.fr {
+    float: right;
+}
+.sorting-filter {
+    width: 160px;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+.collec-filter {
+    *margin-top: -30px;
+}
+h2{
+	margin: 0;
+}
+.ct-collect {
+    width: 100%;
+    height: auto;
+}
+.collect-list {
+    margin-left: -10px;
+    width: 1020px;
+    height: auto;
+	float: left;
+}
+.sfbox select{
+	width: 100%;
+	height: 38px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.sfbox select option{
+	font-weight: bold;
+	font-size: 15px;
+}
+.collect-none {
+    padding-top: 190px;
+    margin: 100px auto 400px;
+    font-size: 24px;
+    color: #666;
+    background: url(../image/colect/collect-none.png) no-repeat top;
+    text-align: center;
+}
+.yellow {
+    color: #f3bf19;
+}
+
+/* 每一个收藏的样式 */
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+a {
+    text-decoration: none;
+}
+p{
+	margin: 0;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.collect-list li .collect-action {
+    position: absolute;
+    top: 185px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+	display: none;
+}
+.collect-list li {
+    margin: 0 10px 20px;
+    float: left;
+    width: 233px;
+    height: 308px;
+    border: 1px solid #eee;
+    position: relative;
+    font-size: 14px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.collect-list li .collect-action .btn-cancel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+.collect-list li .collect-action .collect-actzzc {
+    width: 100%;
+    height: 40px;
+    background: #f3bf19;
+    opacity: 0.5;
+}
+.top-img{
+	position: relative;
+}
+.collect-list li .colist-goodimg {
+    display: block;
+    width: 233px;
+    height: 225px;
+    overflow: hidden;
+}
+.collect-clear{
+	width: 100%;
+	height: 40px;
+	background: #f3bf19;
+	opacity: 0.5;/*从0.5到0.7*/
+	position: absolute;
+	bottom:0;
+	text-align: center;
+	
+}
+.collect-clear-a{
+	color: white;
+	font-size: 14px;
+	line-height: 40px;
+	width: 100%;
+}
+.collect-list li .colist-name {
+    padding: 3px 10px 0;
+    height: 42px;
+    line-height: 20px;
+    color: #666;
+}
+.collect-list li .colist-pri {
+    padding: 5px 10px 0;
+    line-height: 20px;
+}
+.collect-list li .colist-pri span {
+    display: block;
+    margin-right: 10px;
+}
+.collect-list li .colist-newpri {
+    font-size: 18px;
+    color: #f3bf19;
+}
+.collect-list li .colist-oldpri {
+    color: #999;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,308 @@
+input, textarea, select {
+	font-size: 100%;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+.center-none {
+    margin: 10px auto 20px;
+    height: 300px;
+    border: 1px solid #eee;
+}
+.center-none .ico-none {
+    display: block;
+    margin: 50px auto 0;
+    width: 171px;
+    height: 163px;
+    background: url(../image/order-none.png) no-repeat;
+}
+.center-none .none-tip {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+}
+
+/*当存在收货地址*/
+.addr-head {
+    width: 100%;
+    height: 40px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333;
+}
+.addr-head .gray {
+    color: #999;
+}
+.addr-head .btn-addaddr {
+	margin-top: -30px;
+    font-size: 14px;
+    color: #70abed;
+}
+.fr{
+	float: right;
+}
+.addr-list {
+    width: 998px;
+    height: auto;
+    border: 1px solid #eee;
+    border-bottom: none;
+}
+.addr-list li.addrlist-head {
+    height: 39px;
+    background: #eee;
+    overflow: hidden;
+}
+.addr-list li {
+    width: 100%;
+    height: 99px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+.addr-list li .addrlist-name {
+    width: 150px;
+}
+.addr-list li.addrlist-head span {
+    height: 39px;
+    color: #888;
+}
+.addr-list li .addrlist-addr {
+    width: 325px;
+}
+.addr-list li span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 99px;
+    line-height: 20px;
+    margin-top: 38px;
+}
+.addr-list li .addrlist-tel {
+    width: 180px;
+}
+.addr-list li .addrlist-action {
+    width: 165px;
+}
+.addr-list li .addrlist-action a {
+    color: #70abed;
+    padding-right: 5px;
+}
+.addr-list li .addrlist-default {
+    width: 178px;
+}
+.addr-list li .addrlist-action a.btn-del {
+    padding-right: 0;
+    padding-left: 8px;
+    height: 14px;
+    line-height: 14px;
+    display: inline-block;
+    border-left: 2px solid #70abed;
+    zoom: 1;
+    vertical-align: baseline;
+}
+.addr-list li .addrlist-default a.btn-default {
+    margin: 0 auto;
+    display: block;
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #f3bf19;
+}
+.addr-list li .addrlist-default .addrlist-link {
+    color: #70abed;
+}
+
+/*新增地址*/
+.ct-addrinfo {
+    margin: 25px 0 0 4px;
+}
+.addr-tit {
+    text-align: left;
+    line-height: 16px;
+    font-size: 16px;
+    color: #333;
+}
+.ct-addrinfo .ct-userform {
+    margin-top: 30px;
+}
+.ct-useritem {
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.ct-addrinfo .ct-useritem .uitem-label {
+    width: 95px;
+    text-align: right;
+}
+.ct-useritem .uitem-label {
+    margin-right: 35px;
+    width: 50px;
+    display: block;
+    text-indent: 12px;
+}
+.red {
+    color: #e32f2f;
+}
+.ct-addrinfo .ct-useritem .uitem-ipt {
+    width: 238px;
+}
+.ct-useritem .uitem-ipt {
+    margin-right: 10px;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.ct-addrinfo .ct-useritem .uitem-ipt .uitem-input {
+    width: 234px;
+}
+.ct-useritem .uitem-ipt .uitem-input {
+    width: 194px;
+    background: #fff;
+    border: none;
+    padding-left: 4px;
+    height: 38px;
+    line-height: 38px;
+    outline: none;
+    vertical-align: middle;
+}
+.ct-addrinfo .ct-useritem .uitem-ipt {
+    width: 238px;
+}
+.ct-useritem .uitem-ipt {
+    margin-right: 10px;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+/*
+	所在地区
+*/
+
+.ct-addrinfo .ct-areaitem {
+    height: 78px;
+}
+.ct-useritem {
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.ct-useritem .uitem-areabox {
+    margin-right: 10px;
+    width: 618px;
+    height: 76px;
+    line-height: 38px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+.ct-useritem .uitem-areabox .uitem-area {
+    width: 614px;
+    background: #fff;
+    border: none;
+    resize: none;
+	padding: 0;
+    padding-left: 4px;
+    height: 76px;
+    line-height: 25px;
+    outline: none;
+    vertical-align: middle;
+}
+.ct-addrinfo .uitem-actbox {
+    margin-left: 130px;
+}
+.uitem-actbox {
+    margin: 30px 0 0 85px;
+}
+.uitem-actbox .btn-uitem-save {
+    display: block;
+    width: 180px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background: #ffc933;
+    color: #333;
+    font-size: 16px;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+	margin-bottom: 30px;
+}
+
+.ct-useritem .zd3 {
+    z-index: 3;
+}
+.ct-useritem .uitem-sel {
+    margin-right: 10px;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #eee;
+}
+.ct-useritem .uitem-sel .uitem-seled {
+    display: block;
+    width: 174px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.ico-center {
+    background: url(../image/ico_center.png) no-repeat;
+}
+.ct-useritem .uitem-sel .uitem-botarr {
+    position: absolute;
+    top: 16px;
+    right: 9px;
+    width: 10px;
+    height: 5px;
+    background-position: -619px -275px;
+    display: block;
+}
+.ct-useritem .uitem-sel .uitem-toparr {
+    background-position: -619px -281px;
+}
+.ct-useritem .uitem-sel .uitem-downlist {
+    position: absolute;
+    top: 38px;
+    left: -1px;
+    width: 198px;
+    height: auto;
+    background: #fff;
+    border: 1px solid #eee;
+    z-index: 10;
+    display: none;
+}
+.ct-useritem .uitem-sel .uitem-downlist li {
+    display: block;
+    width: 194px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 4px;
+}
+.ct-useritem .uitem-sel .uitem-downlist li:active,
+.ct-useritem .uitem-sel .uitem-downlist li:hover{
+	color: #F3BF19;
+}
+
+
+
+
+
