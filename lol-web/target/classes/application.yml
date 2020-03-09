@@ -1,32 +1,32 @@
 server:
-  # è®¾ç½®tomcat
+  # ÉèÖÃtomcat
   tomcat:
     uri-encoding: UTF-8
     max-threads: 1000
     min-spare-threads: 50
-  # æŒ‡å®šç«¯å£
+  # Ö¸¶¨¶Ë¿Ú
   port: 8080
-  # æŒ‡å®šé¡¹ç›®çš„ContextPathè·¯å¾„
+  # Ö¸¶¨ÏîÄ¿µÄContextPathÂ·¾¶
   servlet:
     context-path: /lol
 debug: true
 spring:
-  # å­—ç¬¦ç¼–ç è¿‡æ»¤å™¨é…ç½®ï¼ˆCharacterEncodingFilterï¼‰
+  # ×Ö·û±àÂë¹ıÂËÆ÷ÅäÖÃ£¨CharacterEncodingFilter£©
   http:
     encoding:
       charset: UTF-8
       enabled: true
       force: true
-  # æ—¥æœŸæ ¼å¼åŒ–
+  # ÈÕÆÚ¸ñÊ½»¯
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-  # åŒ…å«daoçš„ymlé…ç½®æ–‡ä»¶,å¯¹åº”çš„æ˜¯application-xxx.ymlæ–‡ä»¶çš„xxxåç§°
+  # °üº¬daoµÄymlÅäÖÃÎÄ¼ş,¶ÔÓ¦µÄÊÇapplication-xxx.ymlÎÄ¼şµÄxxxÃû³Æ
   devtools:
     restart:
-      enabled: true  #è®¾ç½®å¼€å¯çƒ­éƒ¨ç½²
+      enabled: true  #ÉèÖÃ¿ªÆôÈÈ²¿Êğ
   freemarker:
-    cache: false    #é¡µé¢ä¸åŠ è½½ç¼“å­˜ï¼Œä¿®æ”¹å³æ—¶ç”Ÿæ•ˆ
+    cache: false    #Ò³Ãæ²»¼ÓÔØ»º´æ£¬ĞŞ¸Ä¼´Ê±ÉúĞ§
   profiles:
     include: dao
     elasticsearch:

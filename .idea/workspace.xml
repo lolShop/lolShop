@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c226e1a-cce2-410a-935a-b42b11281c8c" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
@@ -194,9 +195,23 @@
       <change beforePath="$PROJECT_DIR$/lol-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lol-web/src/main/resources/static/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/resources/static/js/detail.js" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-dao/lol-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-dao/lol-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/lol-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/lol-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-service/lol-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-service/lol-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-util/lol-util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-util/lol-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-web/lol-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/lol-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/advice/ControllerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/src/main/java/edu/nf/lol/advice/ControllerAspect.java" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/lol-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol-web/target/classes/static/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/static/js/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol-web/target/classes/edu/nf/lol/advice/ControllerAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/lol-web/target/classes/edu/nf/lol/advice/ControllerAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lol.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,6 +268,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JRebelWorkspace">
@@ -261,6 +281,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="localRepository" value="F:\二学年资料\repo" />
         <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.6.1" />
         <option name="userSettingsFile" value="F:\s3s152\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -301,18 +322,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20136519" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\lol\lol-service\src\main\resources" />
-      <recent name="F:\lol\lol-service\src\test\resources" />
-      <recent name="F:\lol\lol-dao\src\main\resources\mapper" />
-      <recent name="F:\lol\doc\sql" />
-      <recent name="F:\lol\lol-web\src\main\resources\static" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static" />
+      <recent name="F:\lol\lol-web\src\main\resources\static\img\index" />
+      <recent name="F:\lol\lol-web\src\main\resources\static\image\index" />
+      <recent name="F:\lol\doc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="edu.nf.lol.advice" />
@@ -321,19 +341,12 @@
       <recent name="edu.nf.lol.controller.test.product" />
       <recent name="edu.nf.lol.product.service.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\lol\lol-dao\src\main\resources\mapper\product" />
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\image\orderplace" />
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\image" />
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\css" />
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static\js" />
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\s3s152\lol\lol-web\src\main\resources\static" />
-      <recent name="F:\lol\lol-web\src\main\resources\static\img\index" />
-      <recent name="F:\lol\lol-web\src\main\resources\static\image\index" />
-      <recent name="F:\lol\doc" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\lol\lol-service\src\main\resources" />
+      <recent name="F:\lol\lol-service\src\test\resources" />
+      <recent name="F:\lol\lol-dao\src\main\resources\mapper" />
+      <recent name="F:\lol\doc\sql" />
+      <recent name="F:\lol\lol-web\src\main\resources\static" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.lolApplication">
@@ -422,11 +435,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.lolApplication (1)" />
         <item itemvalue="Spring Boot.lolApplication" />
-        <item itemvalue="JUnit.ProductDetailTest.testProductDetail" />
         <item itemvalue="JUnit.ProductDetailTest (1)" />
         <item itemvalue="JUnit.ProductDetailTest.testProductDetail (1)" />
-        <item itemvalue="Spring Boot.lolApplication (1)" />
+        <item itemvalue="JUnit.ProductDetailTest.testProductDetail" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +483,7 @@
       <workItem from="1583324312183" duration="7566000" />
       <workItem from="1583336213380" duration="4088000" />
       <workItem from="1583716998844" duration="4331000" />
+      <workItem from="1583744337489" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="爱联盟 1.0版本">
       <created>1583151481711</created>
@@ -527,11 +541,11 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="243" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583722805422" />
-    <state x="183" y="128" key="FileChooserDialogImpl" timestamp="1583388468885">
+    <state x="183" y="128" key="FileChooserDialogImpl" timestamp="1583744412855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="442" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583330037469" />
-    <state x="183" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583388468885" />
+    <state x="183" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583744412855" />
     <state width="1323" height="90" key="GridCell.Tab.0.bottom" timestamp="1583659087409">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -572,19 +586,23 @@
     </state>
     <state width="1323" height="215" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583288801219" />
     <state width="1323" height="90" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583659087409" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1583336253174">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1583744414073">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583326802378" />
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583336253174" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583744414073" />
     <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1583403145643">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1583403145643" />
-    <state x="414" y="174" key="git4idea.merge.GitPullDialog" timestamp="1583160052852">
+    <state x="475" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583744552885">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="414" y="174" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1583252045833" />
+    <state x="475" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1583744552885" />
+    <state x="414" y="174" key="git4idea.merge.GitPullDialog" timestamp="1583744586771">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="414" y="174" key="git4idea.merge.GitPullDialog/0.0.1366.768@0.0.1366.768" timestamp="1583744586771" />
     <state x="57" y="78" key="new project wizard" timestamp="1583152684263">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

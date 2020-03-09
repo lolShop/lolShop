@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lol.iml" filepath="$PROJECT_DIR$/lol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lol.iml" filepath="$PROJECT_DIR$/.idea/lol.iml" />
       <module fileurl="file://$PROJECT_DIR$/lol-api/lol-api.iml" filepath="$PROJECT_DIR$/lol-api/lol-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/lol-dao/lol-dao.iml" filepath="$PROJECT_DIR$/lol-dao/lol-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/lol-entity/lol-entity.iml" filepath="$PROJECT_DIR$/lol-entity/lol-entity.iml" />
